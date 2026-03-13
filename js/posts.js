@@ -74,43 +74,73 @@ const POSTS = [
     `
   },
   {
-    id: 3, num: '03',
-    cat: 'midia', catLabel: '📺 Multimídia', catColor: '#ff6230',
-    title: 'Multimídia: Conceito e Aplicações',
-    excerpt: 'O que é multimídia de verdade? Explore sua definição, história e como ela permeia absolutamente tudo no mundo digital.',
-    tags: ['Multimídia','Mídia','Digital','História'],
-    date: 'Mar 2025', readTime: '6 min',
     body: `
-      <p>O termo <strong>multimídia</strong> refere-se à integração de múltiplas formas de mídia — texto, imagem, áudio, vídeo e animação — em um único suporte ou experiência.</p>
+  <p>Você já parou pra pensar que quando abre o Instagram, em segundos você consome texto, imagem, vídeo e áudio ao mesmo tempo? Isso é <strong>multimídia</strong> no seu estado mais puro — e ela está em absolutamente tudo no mundo digital. Bora entender de onde veio e como funciona?</p>
 
-      <h3>Componentes da Multimídia</h3>
-      <ul>
-        <li><strong>Texto:</strong> A base informacional — títulos, parágrafos, legendas.</li>
-        <li><strong>Imagem:</strong> Fotografias, ilustrações, infográficos, ícones.</li>
-        <li><strong>Áudio:</strong> Música, narração, efeitos sonoros, podcasts.</li>
-        <li><strong>Vídeo:</strong> Filmagens, animações, screencasts.</li>
-        <li><strong>Interatividade:</strong> O elemento que transforma o receptor em participante ativo.</li>
-      </ul>
+  <h3>O que é Multimídia, afinal?</h3>
+  <p>O termo vem do latim <em>multus</em> (muitos) + <em>medium</em> (meio). Na prática, multimídia é a <strong>integração de dois ou mais tipos de mídia</strong> — texto, imagem, áudio, vídeo e interatividade — em um único suporte ou experiência. Simples assim.</p>
+  <p>Mas atenção: um livro com fotos não é necessariamente multimídia no sentido moderno. O que diferencia a multimídia digital é a <strong>interatividade</strong> — a possibilidade de o usuário participar, escolher e navegar.</p>
 
-      <!-- ✏️ EDITE: Coloque vídeos reais sobre multimídia -->
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">História da Multimídia</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Multimídia: Definição e Componentes</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: A Evolução das Mídias Digitais</div><div class="media-src">anchor.fm/SEU_PODCAST</div></div></div>
+  <div class="info-box"><p>💡 <strong>Curiosidade:</strong> O termo foi popularizado na década de 1990 com o boom dos CD-ROMs, quando enciclopédias digitais com vídeos e áudios pareciam mágica pura.</p></div>
 
-      <h3>Multimídia Linear vs. Não-linear</h3>
-      <p><strong>Linear:</strong> O conteúdo é consumido em sequência, como um filme.</p>
-      <p><strong>Não-linear:</strong> O usuário navega conforme sua escolha, como um website ou jogo.</p>
+  <h3>Uma Breve História da Multimídia</h3>
+  <p>A multimídia não nasceu com a internet — ela tem raízes bem mais antigas:</p>
+  <ul>
+    <li><strong>1945:</strong> Vannevar Bush imaginou o "Memex", uma máquina que conectaria documentos por associação — a ideia-mãe da hipermídia.</li>
+    <li><strong>1960s:</strong> Ivan Sutherland criou o Sketchpad, primeiro sistema gráfico interativo. O computador começava a falar com imagens.</li>
+    <li><strong>1984:</strong> O Macintosh da Apple popularizou a interface gráfica com ícones e janelas — multimídia chegando ao usuário comum.</li>
+    <li><strong>1990s:</strong> CD-ROMs com enciclopédias multimídia, jogos com FMV (Full Motion Video) e o nascimento da World Wide Web mudaram tudo.</li>
+    <li><strong>2007:</strong> O iPhone integrou câmera, música, vídeo e internet num único dispositivo de bolso — multimídia onde quer que você esteja.</li>
+    <li><strong>Hoje:</strong> Streaming, podcasts, reels, lives, realidade aumentada. A multimídia é o ar que respiramos digitalmente.</li>
+  </ul>
 
-      <div class="info-box"><p>🔗 <strong>Saiba mais:</strong> nmc.org/horizon-report</p></div>
+  <h3>Os 5 Tipos de Mídia</h3>
+  <p>Todo conteúdo multimídia é construído com combinações desses cinco elementos:</p>
 
-      <h3>Referências</h3>
-      <ul class="ref-list">
-        <li>VAUGHAN, Tay. <em>Multimídia na Prática</em>. McGraw-Hill, 2011.</li>
-        <li>MAYER, Richard E. <em>Multimedia Learning</em>. Cambridge University Press, 2001.</li>
-        <li>MANOVICH, Lev. <em>The Language of New Media</em>. MIT Press, 2001.</li>
-      </ul>
-    `
-  },
+  <h4>📝 Texto</h4>
+  <p>A base de tudo. Títulos, parágrafos, legendas, hashtags. Mesmo numa era de vídeos, o texto ainda é o elemento mais usado na web — inclusive porque os mecanismos de busca "leem" texto para indexar conteúdo.</p>
+
+  <h4>🖼 Imagem</h4>
+  <p>Fotografias, ilustrações, infográficos, memes, ícones. Uma boa imagem comunica em milissegundos o que um parágrafo inteiro levaria segundos para transmitir. Não à toa dizem que uma imagem vale mil palavras — na web, ela vale também em SEO e engajamento.</p>
+
+  <h4>🔊 Áudio</h4>
+  <p>Música, narração, efeitos sonoros, podcasts, notificações. O áudio é a mídia mais íntima — entra direto pelo ouvido enquanto você faz outra coisa. O crescimento explosivo dos podcasts nos últimos anos prova que o áudio está longe de ser ultrapassado.</p>
+
+  <h4>🎬 Vídeo</h4>
+  <p>Filmagens, animações, screencasts, lives, reels. O vídeo combina imagem em movimento + áudio + às vezes texto (legendas), sendo o formato mais rico e ao mesmo tempo mais exigente em termos de produção e banda de internet.</p>
+
+  <h4>🖱 Interatividade</h4>
+  <p>O elemento que transforma o receptor passivo em participante ativo. Botões, links, formulários, jogos, quizzes — qualquer coisa que permita ao usuário agir e receber uma resposta. É a interatividade que diferencia a multimídia digital de uma TV ou um livro.</p>
+
+  <h3>Multimídia Linear vs. Não-linear</h3>
+  <p>Essa é uma distinção fundamental que aparece bastante nas provas e trabalhos de Multimídias:</p>
+
+  <h4>Linear 🎞</h4>
+  <p>O conteúdo é consumido do início ao fim, em sequência, sem desvios. O usuário não controla o fluxo — ele só assiste ou lê. Exemplos: filmes, documentários, apresentações de slides em modo apresentação, músicas.</p>
+
+  <h4>Não-linear 🌐</h4>
+  <p>O usuário navega conforme sua própria escolha, pulando entre conteúdos de forma não sequencial. Exemplos: websites, jogos, wikis, aplicativos, e-books interativos. A web inteira é um sistema não-linear por natureza.</p>
+
+  <div class="info-box"><p>🎮 <strong>Exemplo prático:</strong> Netflix é linear quando você aperta play e assiste um episódio do começo ao fim. Mas é não-linear quando você escolhe qual série assistir, pula episódios ou usa o recurso interativo de filmes como "Bandersnatch" do Black Mirror.</p></div>
+
+  <h3>Multimídia no Seu Dia a Dia</h3>
+  <p>Sabe aquelas coisas que você faz sem nem pensar? Todas são multimídia:</p>
+  <ul>
+    <li>📱 Abrir o <strong>TikTok</strong> — vídeo + áudio + texto (legenda) + interatividade (curtir, comentar, duet)</li>
+    <li>🎮 Jogar qualquer <strong>videogame</strong> — gráficos + som + narrativa + controles interativos</li>
+    <li>📚 Usar o <strong>Google</strong> — texto + imagens + vídeos + links interconectados</li>
+    <li>🎧 Ouvir um <strong>podcast no Spotify</strong> — áudio + imagem (capa) + texto (descrição + capítulos)</li>
+    <li>📰 Ler uma <strong>reportagem online</strong> — texto + fotos + vídeo embutido + infográficos interativos</li>
+  </ul>
+  <p>A multimídia deixou de ser uma novidade para se tornar o padrão de como nos comunicamos. Entender seus componentes e como eles funcionam juntos é o ponto de partida de qualquer profissional de comunicação digital.</p>
+
+  <h3>Referências</h3>
+  <ul class="ref-list">
+    <li>VAUGHAN, Tay. <em>Multimídia na Prática</em>. McGraw-Hill, 2011.</li>
+    <li>MAYER, Richard E. <em>Multimedia Learning</em>. Cambridge University Press, 2001.</li>
+    <li>MANOVICH, Lev. <em>The Language of New Media</em>. MIT Press, 2001.</li>
+  </ul>
+`
   {
     id: 4, num: '04',
     cat: 'midia', catLabel: '📺 Hipermídia', catColor: '#ff6230',
