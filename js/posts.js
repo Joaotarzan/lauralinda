@@ -63,7 +63,7 @@ const POSTS = [
 
       <!-- ✏️ EDITE: Substitua os links pelos vídeos reais que você vai usar -->
       <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">O que é Comunicação Digital?</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Blogs e a Revolução da Web 2.0</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
+      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Blogs e a Revolução da Web 2.0</div><div class="media-src">https://youtu.be/ZEShuc4knkc?si=jLTHWCbi5Zpb7WTo</div></div></div>
       <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Criação de Conteúdo Digital</div><div class="media-src">spotify.com/SEU_PODCAST_AQUI</div></div></div>
 
       <h3>Referências</h3>
