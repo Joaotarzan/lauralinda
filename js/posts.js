@@ -61,11 +61,76 @@ const POSTS = [
         <li>Criar um portfólio acadêmico acessível online</li>
       </ul>
 
-      <!-- ✏️ EDITE: Substitua os links pelos vídeos reais que você vai usar -->
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">O que é Comunicação Digital?</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Blogs e a Revolução da Web 2.0</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Criação de Conteúdo Digital</div><div class="media-src">spotify.com/SEU_PODCAST_AQUI</div></div></div>
+      <!-- ✏️ Link dos videos -->
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo Externo 1</div>
+    <div class="media-title">O que é Comunicação Digital?</div>
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/ZEShuc4knkc"
+        title="O que é Comunicação Digital?"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      ></iframe>
+    </div>
+  </div>
+</div>
 
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo Externo 2</div>
+    <div class="media-title">Blogs e a Revolução da Web 2.0</div>
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/2l6Sx56fupM"
+        title="Blogs e a Revolução da Web 2.0"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🔊</span>
+  <div>
+    <div class="media-label">Áudio Externo</div>
+    <div class="media-title">Podcast: Criação de Conteúdo Digital</div>
+    <div class="video-wrapper">
+      <iframe
+        src="https://www.youtube.com/embed/nKPyvZSfNTc"
+        title="Podcast: Criação de Conteúdo Digital"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+<style>
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
       <h3>Referências</h3>
       <ul class="ref-list">
         <li>JENKINS, Henry. <em>Convergence Culture</em>. NYU Press, 2006.</li>
