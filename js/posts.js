@@ -489,12 +489,86 @@ body: `
 </ul>
 ` },
   {
-    id: 8, num: '08', cat: 'xr', catLabel: '🔮 Holografia', catColor: '#39d98a',
-    title: 'Holografia: Hardware e Software',
-    excerpt: 'De Star Wars à realidade — como a holografia funciona e onde é aplicada.',
-    tags: ['Holografia','Holograma','Display 3D'], date: 'Abr 2025', readTime: '7 min',
-    body: `<p>A <strong>holografia</strong> registra e reproduz a luz criando imagens tridimensionais. Um holograma é criado pela interferência de dois feixes de laser — de referência e objeto.</p><h3>Hardware Holográfico</h3><h4>Displays Dinâmicos</h4><ul><li><strong>Pepper's Ghost:</strong> Técnica com espelhos usada em shows</li><li><strong>Looking Glass Factory:</strong> Display volumétrico sem óculos</li><li><strong>Voxon Photonics:</strong> Volume real de luz</li></ul><h3>Aplicações Reais</h3><p><strong>Medicina:</strong> Cirurgiões visualizam órgãos em 3D (RealView Imaging).</p><p><strong>Entretenimento:</strong> Concertos com artistas "ressuscitados" digitalmente.</p><!-- ✏️ EDITE --><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Como Funciona a Holografia</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Hologramas — Tecnologia Explicada</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Criado</div><div class="media-title">Narração: Holografia — Da Física às Aplicações [Gravação Própria]</div></div></div><div class="info-box"><p>🔗 lookingglassfactory.com | media.mit.edu/groups/holography</p></div><h3>Referências</h3><ul class="ref-list"><li>GABOR, Dennis. <em>A New Microscopic Principle</em>. Nature, 1948.</li><li>HARIHARAN, P. <em>Optical Holography</em>. Cambridge University Press, 1996.</li></ul>`
-  },
+    id: 8, num: '08', 
+cat: 'xr', catLabel: '🔮 Holografia', catColor: '#39d98a',
+title: 'Holografia: Hardware e Software',
+excerpt: 'De Star Wars à realidade — como a holografia funciona e onde é aplicada.',
+tags: ['Holografia','Holograma','Display 3D'], 
+date: 'Abr 2025', readTime: '7 min',
+
+body: `
+<p>A <strong>holografia</strong> é uma técnica que registra e reproduz padrões de luz para criar imagens tridimensionais. Diferente de imagens tradicionais, o holograma preserva profundidade e perspectiva, permitindo que o objeto seja visto de diferentes ângulos.</p>
+
+<p>Um holograma é formado a partir da interferência entre dois feixes de laser: o feixe de referência e o feixe refletido pelo objeto. Essa interação gera um padrão que pode ser reconstruído posteriormente, criando a ilusão tridimensional.</p>
+
+<img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Hardware Holográfico</h3>
+
+<h4>Displays Dinâmicos</h4>
+<ul>
+  <li><strong>Pepper's Ghost:</strong> Técnica clássica baseada em reflexos com vidro e espelhos, muito usada em shows e apresentações.</li>
+  <li><strong>Looking Glass Factory:</strong> Displays holográficos que permitem visualizar objetos 3D sem necessidade de óculos.</li>
+  <li><strong>Voxon Photonics:</strong> Tecnologia que cria volumes reais de luz no espaço, aproximando-se da holografia “verdadeira”.</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1549924231-f129b911e442" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Aplicações Reais</h3>
+
+<p><strong>Medicina:</strong> Tecnologias como a RealView Imaging permitem visualizar órgãos em 3D, auxiliando diagnósticos e procedimentos cirúrgicos.</p>
+
+<p><strong>Entretenimento:</strong> Shows com hologramas recriam artistas digitalmente, criando experiências imersivas para o público.</p>
+
+<p><strong>Educação:</strong> Modelos tridimensionais ajudam na compreensão de estruturas complexas, como moléculas ou sistemas biológicos.</p>
+
+<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<!-- LINKS CLICÁVEIS -->
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Como Funciona a Holografia</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=EmKQsSDlaa4" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Hologramas — Tecnologia Explicada</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=Yqk7P6Fq7iU" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🔊</span>
+  <div>
+    <div class="media-label">Áudio</div>
+    <div class="media-title">Narração: Holografia — Da Física às Aplicações</div>
+  </div>
+</div>
+
+<div class="info-box">
+<p>🔗 lookingglassfactory.com | media.mit.edu/groups/holography</p>
+</div>
+
+<h3>Referências</h3>
+<ul class="ref-list">
+<li>GABOR, Dennis. <em>A New Microscopic Principle</em>. Nature, 1948.</li>
+<li>HARIHARAN, P. <em>Optical Holography</em>. Cambridge University Press, 1996.</li>
+</ul>
+` },
   {
     id: 9, num: '09', cat: 'imagem', catLabel: '🖼 Imagem Digital', catColor: '#00e5ff',
     title: 'Imagens e seus Formatos',
