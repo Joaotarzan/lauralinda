@@ -139,7 +139,7 @@ const POSTS = [
     <li>MAYER, Richard E. <em>Multimedia Learning</em>. Cambridge University Press, 2001.</li>
     <li>MANOVICH, Lev. <em>The Language of New Media</em>. MIT Press, 2001.</li>
   </ul>
-`
+
     `
   },
 
