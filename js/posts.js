@@ -41,37 +41,48 @@ const POSTS = [
     `
   },
   {
-    id: 2, num: '02',
-    cat: 'midia', catLabel: '📺 Multimídia', catColor: '#ff6230',
-    title: 'Finalidade do Blog',
-    excerpt: 'Por que criar um blog para a disciplina? Entenda como a produção de conteúdo digital é em si uma prática multimídia.',
-    tags: ['Blog','Comunicação','Mídia Digital'],
-    date: 'Mar 2025', readTime: '4 min',
-    body: `
-      <p>Criar um blog vai muito além de escrever textos na internet. Quando integramos texto, imagem, vídeo, áudio e links interativos, estamos praticando diretamente os conceitos de <strong>multimídia</strong>.</p>
+    {
+  id: 2, num: '02',
+  cat: 'midia', catLabel: '📺 Multimídia', catColor: '#ff6230',
+  title: 'Finalidade do Blog',
+  excerpt: 'Por que criar um blog para a disciplina? Entenda como a produção de conteúdo digital é em si uma prática multimídia.',
+  tags: ['Blog', 'Comunicação', 'Mídia Digital'],
+  date: 'Mar 2025', readTime: '4 min',
+  images: [
+    { label: 'Imagem 1', src: '', alt: 'Exemplo de blog ou plataforma digital' },
+    { label: 'Imagem 2', src: '', alt: 'Diagrama de hipermídia ou convergência de mídias' }
+  ],
+  body: `
+    <p>Criar um blog vai muito além de escrever textos na internet. Quando integramos texto, imagem, vídeo, áudio e links interativos em um único espaço, estamos praticando diretamente os conceitos de <strong>multimídia</strong> — e é exatamente isso que este projeto se propõe a fazer.</p>
 
-      <h3>Por que um Blog?</h3>
-      <p>O blog permite combinar múltiplas mídias de forma não-linear — um exemplo perfeito de hipermídia.</p>
+    <h3>Por que um Blog?</h3>
+    <p>O blog é um dos formatos digitais mais versáteis que existem. Ele permite combinar múltiplas mídias de forma não-linear, onde o leitor pode navegar pelo conteúdo em qualquer ordem, seguir links, assistir vídeos e ouvir áudios — tudo dentro de uma mesma experiência. Esse modelo é um exemplo perfeito do conceito de <strong>hipermídia</strong>: a integração de hipertexto com diferentes linguagens midiáticas.</p>
+    <p>Além disso, o processo de produzir um blog nos coloca no papel de criadores de conteúdo digital, não apenas consumidores. Isso desenvolve uma compreensão muito mais profunda dos temas estudados na disciplina.</p>
 
-      <h3>Objetivos do Projeto</h3>
-      <ul>
-        <li>Documentar o aprendizado ao longo da disciplina</li>
-        <li>Praticar a criação e curadoria de conteúdo multimídia</li>
-        <li>Desenvolver habilidades de comunicação digital</li>
-        <li>Criar um portfólio acadêmico acessível online</li>
-      </ul>
+    <div class="post-images">
+      {{IMAGE_1}}
+      {{IMAGE_2}}
+    </div>
 
-      <!-- ✏️ EDITE: Substitua os links pelos vídeos reais que você vai usar -->
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">O que é Comunicação Digital?</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Blogs e a Revolução da Web 2.0</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Criação de Conteúdo Digital</div><div class="media-src">spotify.com/SEU_PODCAST_AQUI</div></div></div>
+    <h3>Objetivos do Projeto</h3>
+    <ul>
+      <li>Documentar o aprendizado ao longo da disciplina</li>
+      <li>Praticar a criação e curadoria de conteúdo multimídia</li>
+      <li>Desenvolver habilidades de comunicação digital</li>
+      <li>Criar um portfólio acadêmico acessível online</li>
+    </ul>
 
-      <h3>Referências</h3>
-      <ul class="ref-list">
-        <li>JENKINS, Henry. <em>Convergence Culture</em>. NYU Press, 2006.</li>
-        <li>O'REILLY, Tim. <em>What is Web 2.0</em>. O'Reilly Media, 2005.</li>
-      </ul>
-    `
+    <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">O que é Comunicação Digital?</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
+    <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Blogs e a Revolução da Web 2.0</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
+    <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Criação de Conteúdo Digital</div><div class="media-src">spotify.com/SEU_PODCAST_AQUI</div></div></div>
+
+    <h3>Referências</h3>
+    <ul class="ref-list">
+      <li>JENKINS, Henry. <em>Convergence Culture</em>. NYU Press, 2006.</li>
+      <li>O'REILLY, Tim. <em>What is Web 2.0</em>. O'Reilly Media, 2005.</li>
+    </ul>
+  `
+}
   },
   {
     id: 3, num: '03',
