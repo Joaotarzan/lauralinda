@@ -296,13 +296,102 @@ body: `
     <li>JERALD, Jason. <em>The VR Book</em>. ACM Books, 2015.</li>
   </ul>
 `},
-  {
-    id: 6, num: '06', cat: 'xr', catLabel: '🔮 Realidade Aumentada', catColor: '#ffd060',
-    title: 'Realidade Aumentada: Hardware e Software',
-    excerpt: 'Pokémon GO foi só o começo. Explore como a AR sobrepõe o digital ao físico.',
-    tags: ['AR','ARKit','ARCore','WebAR'], date: 'Abr 2025', readTime: '7 min',
-    body: `<p>A <strong>Realidade Aumentada (AR)</strong> sobrepõe elementos digitais ao mundo físico em tempo real.</p><h3>Hardware de AR</h3><ul><li><strong>Smartphones:</strong> ARKit (iOS) e ARCore (Android)</li><li><strong>Microsoft HoloLens 2:</strong> Para uso empresarial e industrial</li><li><strong>Magic Leap 2:</strong> Healthcare e manufatura</li></ul><h3>Software de AR</h3><ul><li><strong>ARKit (Apple):</strong> SDK nativo para iOS</li><li><strong>ARCore (Google):</strong> Para Android</li><li><strong>WebAR / A-Frame:</strong> AR no navegador sem instalar apps</li><li><strong>Spark AR:</strong> Filtros para Instagram</li></ul><!-- ✏️ EDITE --><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Realidade Aumentada: Como Funciona</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">HoloLens 2 — Demonstração</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: AR no Varejo e na Educação</div><div class="media-src">anchor.fm/SEU_PODCAST</div></div></div><h3>Exemplos Práticos</h3><p><strong>Medicina:</strong> Cirurgiões usam HoloLens durante cirurgias.</p><p><strong>Varejo:</strong> IKEA Place — experimente móveis virtualmente em casa.</p><div class="info-box"><p>🔗 aframe.io | experiments.withgoogle.com/collection/ar</p></div><h3>Referências</h3><ul class="ref-list"><li>AZUMA, Ronald. <em>A Survey of Augmented Reality</em>. Presence, 1997.</li><li>CRAIG, Alan B. <em>Understanding Augmented Reality</em>. Morgan Kaufmann, 2013.</li></ul>`
-  },
+  { id: 6, num: '06', 
+cat: 'xr', catLabel: '🔮 Realidade Aumentada', catColor: '#ffd060',
+title: 'Realidade Aumentada: Hardware e Software',
+excerpt: 'Pokémon GO foi só o começo. Explore como a AR sobrepõe o digital ao físico.',
+tags: ['AR','ARKit','ARCore','WebAR'], 
+date: 'Abr 2025', readTime: '7 min',
+
+body: `
+<p>A <strong>Realidade Aumentada (AR)</strong> é uma tecnologia que sobrepõe elementos digitais ao mundo físico em tempo real. Diferente da realidade virtual, que cria um ambiente totalmente artificial, a AR mantém o usuário no mundo real, enriquecendo-o com informações visuais interativas.</p>
+
+<img src="https://images.unsplash.com/photo-1581091012184-5c1b4b0f0c54" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Hardware de AR</h3>
+<p>O hardware de AR é responsável por capturar o ambiente real e inserir objetos digitais de forma precisa e alinhada ao espaço físico.</p>
+
+<ul>
+  <li><strong>Smartphones:</strong> Dispositivos mais acessíveis, utilizando câmeras e sensores com tecnologias como ARKit (iOS) e ARCore (Android).</li>
+  <li><strong>Microsoft HoloLens 2:</strong> Óculos avançados voltados para uso profissional, com interação por gestos e hologramas.</li>
+  <li><strong>Magic Leap 2:</strong> Focado em aplicações industriais, médicas e de engenharia.</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1605379399642-870262d3d051" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Software de AR</h3>
+<p>O software é responsável por interpretar o ambiente e posicionar corretamente os elementos virtuais, garantindo uma experiência fluida e realista.</p>
+
+<ul>
+  <li><strong>ARKit (Apple):</strong> SDK nativo para desenvolvimento de AR em dispositivos iOS.</li>
+  <li><strong>ARCore (Google):</strong> Plataforma equivalente para dispositivos Android.</li>
+  <li><strong>WebAR / A-Frame:</strong> Permite experiências de AR diretamente no navegador, sem necessidade de instalação.</li>
+  <li><strong>Spark AR:</strong> Utilizado para criação de filtros interativos em redes sociais como Instagram.</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<!-- LINKS CLICÁVEIS -->
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Realidade Aumentada: Como Funciona</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=1Y6Wz3b7F0Y" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">HoloLens 2 — Demonstração</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=eqFqtAJMtYE" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🔊</span>
+  <div>
+    <div class="media-label">Áudio</div>
+    <div class="media-title">Podcast: AR no Varejo e Educação</div>
+    <div class="media-src">
+      <a href="https://anchor.fm/" target="_blank">
+        ▶ Ouvir podcast
+      </a>
+    </div>
+  </div>
+</div>
+
+<h3>Exemplos Práticos</h3>
+
+<p><strong>Medicina:</strong> Cirurgiões utilizam AR para visualizar estruturas internas do corpo durante procedimentos, aumentando a precisão.</p>
+
+<p><strong>Varejo:</strong> Aplicativos como o IKEA Place permitem visualizar móveis em casa antes da compra.</p>
+
+<p><strong>Educação:</strong> Conteúdos interativos tornam o aprendizado mais visual e envolvente.</p>
+
+<img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<div class="info-box">
+<p>🔗 aframe.io | experiments.withgoogle.com/collection/ar</p>
+</div>
+
+<h3>Referências</h3>
+<ul class="ref-list">
+<li>AZUMA, Ronald. <em>A Survey of Augmented Reality</em>. Presence, 1997.</li>
+<li>CRAIG, Alan B. <em>Understanding Augmented Reality</em>. Morgan Kaufmann, 2013.</li>
+</ul>
+`
+ },
   {
     id: 7, num: '07', cat: 'xr', catLabel: '🔀 Realidade Mista', catColor: '#ff4d8d',
     title: 'Realidade Mista: Hardware e Software',
