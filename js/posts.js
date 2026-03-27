@@ -16,8 +16,8 @@ const POSTS = [
       <h3>Os Autores</h3>
       <p>Somos dois estudantes apaixonados por tecnologia e criatividade.</p>
       <!-- ✏️ EDITE: Coloque os nomes reais aqui -->
-      <p><strong>Aluno 1:</strong> [Seu nome aqui] — [Breve descrição]</p>
-      <p><strong>Aluno 2:</strong> [Nome do colega] — [Breve descrição]</p>
+      <p><strong>Aluno 1:</strong>Laura Conte—Estudante da FATEC RIO PRETO</p>
+      <p><strong>Aluno 2:</strong>João Carlos—Estudante da FATEC RIO PRETO</p>
 
       <h3>Sobre a Disciplina</h3>
       <p>A disciplina de Multimídias aborda a integração de diferentes formas de mídia — texto, imagem, áudio, vídeo e interatividade — no contexto digital.</p>
