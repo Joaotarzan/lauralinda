@@ -379,7 +379,15 @@ body: `
 
 <p><strong>Educação:</strong> Conteúdos interativos tornam o aprendizado mais visual e envolvente.</p>
 
-<img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620" style="width:100%; border-radius:10px; margin:15px 0;">
+<p><strong>Projeto Próprio — Merge Cube:</strong> 
+Desenvolvi uma experiência utilizando o Merge Cube, um cubo físico que, ao ser reconhecido pela câmera, permite a visualização de objetos 3D em realidade aumentada. 
+O projeto demonstra como a AR pode ser aplicada de forma acessível no ensino e na visualização de conteúdos digitais, tornando a interação mais imersiva e intuitiva.</p>
+
+<!-- CAMPO PARA IMAGEM DO SEU PROJETO -->
+<div style="margin:15px 0;">
+  <p><strong>📸 Imagem do Projeto:</strong></p>
+  <input type="file" accept="image/*">
+</div>
 
 <div class="info-box">
 <p>🔗 aframe.io | experiments.withgoogle.com/collection/ar</p>
