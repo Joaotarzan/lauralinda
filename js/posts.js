@@ -73,7 +73,7 @@ const POSTS = [
       </ul>
     `
   },
-id: 3, num: '03',
+ { id: 3, num: '03',
 cat: 'midia', catLabel: '📺 Multimídia', catColor: '#ff6230',
 title: 'Multimídia: Conceito e Aplicações',
 excerpt: 'O que é multimídia de verdade? Explore sua definição, história e como ela permeia absolutamente tudo no mundo digital.',
