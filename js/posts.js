@@ -202,43 +202,100 @@ body: `
   },
   {
     id: 5, num: '05',
-    cat: 'xr', catLabel: '🥽 Realidade Virtual', catColor: '#39d98a',
-    title: 'Realidade Virtual: Hardware e Software',
-    excerpt: 'Mergulhe no universo da VR — dos óculos HMD aos motores gráficos, entenda toda a infraestrutura que torna mundos virtuais possíveis.',
-    tags: ['VR','Realidade Virtual','HMD','Unity','Unreal'],
-    date: 'Abr 2025', readTime: '8 min',
-    body: `
-      <p>A <strong>Realidade Virtual (VR)</strong> cria ambientes digitais imersivos onde o usuário pode interagir como se estivesse fisicamente presente.</p>
+cat: 'xr', catLabel: '🥽 Realidade Virtual', catColor: '#39d98a',
+title: 'Realidade Virtual: Hardware e Software',
+excerpt: 'Mergulhe no universo da VR — dos óculos HMD aos motores gráficos, entenda toda a infraestrutura que torna mundos virtuais possíveis.',
+tags: ['VR','Realidade Virtual','HMD','Unity','Unreal'],
+date: 'Abr 2025', readTime: '8 min',
+body: `
+  <p>A <strong>Realidade Virtual (VR)</strong> é uma tecnologia que permite a criação de ambientes digitais imersivos, nos quais o usuário pode interagir como se estivesse fisicamente presente. Ao combinar gráficos 3D, sensores e dispositivos de visualização, a VR cria uma sensação de presença que redefine a forma como interagimos com o digital.</p>
 
-      <h3>Hardware de VR</h3>
-      <h4>Head-Mounted Displays</h4>
-      <ul>
-        <li><strong>Meta Quest 3:</strong> Standalone, sem necessidade de PC.</li>
-        <li><strong>PlayStation VR2:</strong> Conectado ao PS5 com eye-tracking.</li>
-        <li><strong>Valve Index:</strong> Alta fidelidade para PC.</li>
-        <li><strong>Apple Vision Pro:</strong> Mixed Reality de alta resolução.</li>
-      </ul>
+  <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <h3>Software de VR</h3>
-      <ul>
-        <li><strong>Unity:</strong> O mais popular para VR. Grande comunidade.</li>
-        <li><strong>Unreal Engine:</strong> Gráficos fotorrealistas.</li>
-        <li><strong>WebXR:</strong> VR diretamente no navegador web.</li>
-      </ul>
+  <h3>Hardware de VR</h3>
+  <p>O hardware é responsável por criar a imersão sensorial. Ele conecta o mundo físico ao virtual por meio de dispositivos que capturam movimentos e exibem ambientes digitais em tempo real.</p>
 
-      <!-- ✏️ EDITE -->
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Como Funciona a Realidade Virtual</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Meta Quest 3 — Demonstração</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: O Futuro da Realidade Virtual</div><div class="media-src">spotify.com/SEU_PODCAST</div></div></div>
+  <h4>Head-Mounted Displays (HMDs)</h4>
+  <ul>
+    <li><strong>Meta Quest 3:</strong> Dispositivo standalone, sem necessidade de computador, ideal para uso acessível e portátil.</li>
+    <li><strong>PlayStation VR2:</strong> Integrado ao PS5, com recursos como rastreamento ocular (eye-tracking) e feedback tátil avançado.</li>
+    <li><strong>Valve Index:</strong> Voltado para PC, oferece alta fidelidade visual e precisão de movimento.</li>
+    <li><strong>Apple Vision Pro:</strong> Dispositivo de realidade mista com altíssima resolução e integração com o ecossistema Apple.</li>
+  </ul>
 
-      <div class="info-box"><p>🔗 <strong>Saiba mais:</strong> developer.mozilla.org/WebXR | docs.unity3d.com/vr</p></div>
+  <img src="https://images.unsplash.com/photo-1592478411213-6153e4ebc07d" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <h3>Referências</h3>
-      <ul class="ref-list">
-        <li>SHERMAN, William R.; CRAIG, Alan B. <em>Understanding Virtual Reality</em>. Morgan Kaufmann, 2018.</li>
-        <li>JERALD, Jason. <em>The VR Book</em>. ACM Books, 2015.</li>
-      </ul>
-    `
+  <h3>Software de VR</h3>
+  <p>O software é responsável por construir os mundos virtuais e controlar a interação do usuário com eles.</p>
+
+  <ul>
+    <li><strong>Unity:</strong> Um dos motores gráficos mais utilizados no desenvolvimento de experiências VR.</li>
+    <li><strong>Unreal Engine:</strong> Conhecido por seus gráficos realistas.</li>
+    <li><strong>WebXR:</strong> Permite VR diretamente no navegador.</li>
+  </ul>
+
+  <img src="https://images.unsplash.com/photo-1581090700227-1e8a5b5f3f68" style="width:100%; border-radius:10px; margin:15px 0;">
+
+  <!-- LINKS CLICÁVEIS -->
+  <div class="media-block">
+    <span class="media-icon">🎬</span>
+    <div>
+      <div class="media-label">Vídeo</div>
+      <div class="media-title">Como Funciona a Realidade Virtual</div>
+      <div class="media-src">
+        <a href="https://www.youtube.com/watch?v=R9kF9Lr3R8s" target="_blank">
+          ▶ Assistir no YouTube
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="media-block">
+    <span class="media-icon">🎬</span>
+    <div>
+      <div class="media-label">Vídeo</div>
+      <div class="media-title">Meta Quest 3 — Demonstração</div>
+      <div class="media-src">
+        <a href="https://www.youtube.com/watch?v=U6p1sR7w2lQ" target="_blank">
+          ▶ Assistir no YouTube
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="media-block">
+    <span class="media-icon">🔊</span>
+    <div>
+      <div class="media-label">Áudio</div>
+      <div class="media-title">Podcast: O Futuro da Realidade Virtual</div>
+      <div class="media-src">
+        <a href="https://spotify.com/" target="_blank">
+          ▶ Ouvir podcast
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <h3>Aplicações da Realidade Virtual</h3>
+  <ul>
+    <li>Educação e treinamentos imersivos</li>
+    <li>Simulações médicas</li>
+    <li>Arquitetura e design</li>
+    <li>Jogos digitais</li>
+  </ul>
+
+  <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200" style="width:100%; border-radius:10px; margin:15px 0;">
+
+  <div class="info-box">
+    <p>🔗 <strong>Saiba mais:</strong> developer.mozilla.org/WebXR | docs.unity3d.com/vr</p>
+  </div>
+
+  <h3>Referências</h3>
+  <ul class="ref-list">
+    <li>SHERMAN, William R.; CRAIG, Alan B. <em>Understanding Virtual Reality</em>. Morgan Kaufmann, 2018.</li>
+    <li>JERALD, Jason. <em>The VR Book</em>. ACM Books, 2015.</li>
+  </ul>
+`
   },
   {
     id: 6, num: '06', cat: 'xr', catLabel: '🔮 Realidade Aumentada', catColor: '#ffd060',
