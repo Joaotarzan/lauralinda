@@ -143,8 +143,6 @@ const POSTS = [
     `
   },
 
-  
-
   {
     
     id: 4, num: '04',
@@ -152,7 +150,7 @@ cat: 'midia', catLabel: '📺 Hipermídia', catColor: '#ff6230',
 title: 'Hipermídia: Além do Hipertexto',
 excerpt: 'Da ideia do Memex à web atual — como a hipermídia revolucionou a forma como consumimos informação.',
 tags: ['Hipermídia','Hipertexto','Web','Navegação'],
-date: 'Mar 2025', readTime: '5 min',
+date: 'Mar 2026', readTime: '5 min',
 body: `
   <p><strong>Hipermídia</strong> é a evolução do hipertexto, incorporando não apenas texto interligado, mas também imagens, vídeos, áudios e elementos interativos conectados entre si. Trata-se de um modelo de organização da informação baseado em conexões, onde o usuário navega de forma não-linear, escolhendo seu próprio caminho.</p>
 
