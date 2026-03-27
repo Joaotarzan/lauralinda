@@ -680,12 +680,109 @@ body: `
 </ul>
 ` },
   {
-    id: 10, num: '10', cat: 'imagem', catLabel: '🖼 Processamento de Imagens', catColor: '#00e5ff',
-    title: 'Processamento de Imagens',
-    excerpt: 'Filtros, segmentação, detecção de bordas — as técnicas que transformam imagens em informação.',
-    tags: ['Processamento','OpenCV','Python','Visão Computacional'], date: 'Mai 2025', readTime: '7 min',
-    body: `<p>O <strong>Processamento Digital de Imagens (PDI)</strong> desenvolve algoritmos para manipular e analisar imagens digitais — base de reconhecimento facial, diagnóstico médico e carros autônomos.</p><h3>Filtros Espaciais</h3><ul><li><strong>Blur:</strong> Gaussiano, Mediana — reduzem ruído</li><li><strong>Sharpening:</strong> Realçam bordas e detalhes</li><li><strong>Detecção de bordas:</strong> Sobel, Canny</li></ul><h3>Ferramentas</h3><ul><li><strong>OpenCV:</strong> Base de toda visão computacional</li><li><strong>Pillow (PIL):</strong> Manipulação básica em Python</li><li><strong>scikit-image:</strong> Algoritmos científicos</li></ul><!-- ✏️ EDITE --><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Processamento de Imagens com OpenCV e Python</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Filtros de Imagem: Como Funcionam</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Visão Computacional no Mundo Real</div><div class="media-src">spotify.com/SEU_PODCAST</div></div></div><div class="info-box"><p>🔗 docs.opencv.org</p></div><h3>Referências</h3><ul class="ref-list"><li>GONZALEZ, Rafael C.; WOODS, Richard E. <em>Digital Image Processing</em>. Pearson, 2018.</li><li>BRADSKI, Gary; KAEHLER, Adrian. <em>Learning OpenCV 4</em>. O'Reilly, 2019.</li></ul>`
-  },
+    id: 10, num: '10', 
+cat: 'imagem', catLabel: '🖼 Processamento de Imagens', catColor: '#00e5ff',
+title: 'Processamento de Imagens',
+excerpt: 'Filtros, segmentação, detecção de bordas — as técnicas que transformam imagens em informação.',
+tags: ['Processamento','OpenCV','Python','Visão Computacional'], 
+date: 'Mai 2025', readTime: '7 min',
+
+body: `
+<p>O <strong>Processamento Digital de Imagens (PDI)</strong> consiste no uso de algoritmos para manipular, analisar e extrair informações de imagens digitais. Essa área é fundamental para aplicações como reconhecimento facial, diagnósticos médicos, sistemas de segurança e veículos autônomos.</p>
+
+<img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Filtros Espaciais</h3>
+<p>Filtros espaciais operam diretamente nos pixels da imagem, alterando sua aparência para destacar ou reduzir determinadas características.</p>
+
+<ul>
+  <li><strong>Blur:</strong> Filtros como Gaussiano e Mediana reduzem ruídos e suavizam a imagem.</li>
+  <li><strong>Sharpening:</strong> Realça bordas e detalhes, aumentando a nitidez.</li>
+  <li><strong>Detecção de bordas:</strong> Algoritmos como Sobel e Canny identificam contornos e limites dos objetos.</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Segmentação de Imagens</h3>
+<p>A segmentação divide a imagem em regiões com características semelhantes, facilitando a análise e interpretação dos dados. É amplamente utilizada em medicina, agricultura e visão computacional.</p>
+
+<ul>
+  <li>Separação de objetos do fundo</li>
+  <li>Identificação de regiões de interesse</li>
+  <li>Análise automática de imagens</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1581090700227-1e8a5b5f3f68" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Ferramentas</h3>
+<p>Diversas bibliotecas facilitam o desenvolvimento de aplicações de processamento de imagens:</p>
+
+<ul>
+  <li><strong>OpenCV:</strong> Biblioteca mais utilizada em visão computacional, com suporte a diversas linguagens.</li>
+  <li><strong>Pillow (PIL):</strong> Manipulação básica de imagens em Python.</li>
+  <li><strong>scikit-image:</strong> Biblioteca voltada para processamento científico.</li>
+</ul>
+
+<!-- LINKS CLICÁVEIS -->
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Processamento de Imagens com OpenCV e Python</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=oXlwWbU8l2o" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Filtros de Imagem: Como Funcionam</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=FTr3n7uBIuE" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🔊</span>
+  <div>
+    <div class="media-label">Áudio</div>
+    <div class="media-title">Podcast: Visão Computacional no Mundo Real</div>
+    <div class="media-src">
+      <a href="https://spotify.com/" target="_blank">
+        ▶ Ouvir podcast
+      </a>
+    </div>
+  </div>
+</div>
+
+<h3>Aplicações do PDI</h3>
+<ul>
+  <li>Reconhecimento facial e biometria</li>
+  <li>Diagnóstico médico por imagem</li>
+  <li>Veículos autônomos</li>
+  <li>Análise de imagens industriais</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<div class="info-box">
+<p>🔗 docs.opencv.org</p>
+</div>
+
+<h3>Referências</h3>
+<ul class="ref-list">
+<li>GONZALEZ, Rafael C.; WOODS, Richard E. <em>Digital Image Processing</em>. Pearson, 2018.</li>
+<li>BRADSKI, Gary; KAEHLER, Adrian. <em>Learning OpenCV 4</em>. O'Reilly, 2019.</li>
+</ul>
+` },
   {
     id: 11, num: '11', cat: 'ia', catLabel: '🤖 Inteligência Artificial', catColor: '#ff4d8d',
     title: 'Inteligência Artificial e Multimídia',
