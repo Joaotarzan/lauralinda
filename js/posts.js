@@ -18,7 +18,7 @@ const POSTS = [
       <!-- ✏️ EDITE: Coloque os nomes reais aqui -->
       <p><strong>Aluno 1:</strong> João Carlos — Estudante de Informatica para Negocios</p>
       <p><strong>Aluno 2:</strong> Laura Conte — Estudante de Informatica para Negocios</p>
-        <img src="../js/img/icon.jfif" style="width:100%; border-radius:10px; margin:15px 0;">
+        <img src="../js/img/icon.png" style="width:50%; border-radius:10px; margin:15px 0;">
 
 
       <h3>Sobre a Disciplina</h3>
