@@ -146,40 +146,61 @@ const POSTS = [
   
 
   {
+    
     id: 4, num: '04',
-    cat: 'midia', catLabel: '📺 Hipermídia', catColor: '#ff6230',
-    title: 'Hipermídia: Além do Hipertexto',
-    excerpt: 'Da ideia do Memex à web atual — como a hipermídia revolucionou a forma como consumimos informação.',
-    tags: ['Hipermídia','Hipertexto','Web','Navegação'],
-    date: 'Mar 2025', readTime: '5 min',
-    body: `
-      <p><strong>Hipermídia</strong> é a extensão do conceito de hipertexto para incluir múltiplas mídias interconectadas.</p>
+cat: 'midia', catLabel: '📺 Hipermídia', catColor: '#ff6230',
+title: 'Hipermídia: Além do Hipertexto',
+excerpt: 'Da ideia do Memex à web atual — como a hipermídia revolucionou a forma como consumimos informação.',
+tags: ['Hipermídia','Hipertexto','Web','Navegação'],
+date: 'Mar 2025', readTime: '5 min',
+body: `
+  <p><strong>Hipermídia</strong> é a evolução do hipertexto, incorporando não apenas texto interligado, mas também imagens, vídeos, áudios e elementos interativos conectados entre si. Trata-se de um modelo de organização da informação baseado em conexões, onde o usuário navega de forma não-linear, escolhendo seu próprio caminho.</p>
 
-      <h3>A Origem: O Memex de Vannevar Bush</h3>
-      <p>Em 1945, Vannevar Bush descreveu o "Memex" — uma máquina que armazenaria informações por associação, antecipando a lógica da World Wide Web.</p>
+  <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <h3>Hipermídia na Prática</h3>
-      <ul>
-        <li>Websites com vídeos, imagens e links interativos</li>
-        <li>E-books interativos com animações e áudio</li>
-        <li>Enciclopédias online como a Wikipedia</li>
-        <li>Jogos com narrativa não-linear</li>
-      </ul>
+  <h3>A Origem: O Memex de Vannevar Bush</h3>
+  <p>Em 1945, o cientista Vannevar Bush publicou o artigo <em>“As We May Think”</em>, no qual descreveu o conceito do <strong>Memex</strong> — uma máquina teórica capaz de armazenar informações e conectá-las por associação, imitando o funcionamento da mente humana.</p>
+  
+  <p>Embora nunca tenha sido construído, o Memex antecipou conceitos fundamentais da web moderna, como links, navegação não-linear e organização por conexões. Essa ideia influenciou diretamente o desenvolvimento do hipertexto e, posteriormente, da hipermídia.</p>
 
-      <!-- ✏️ EDITE -->
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Ted Nelson e a Invenção do Hipertexto</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">Como Funciona a World Wide Web</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div>
-      <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Criado</div><div class="media-title">Narração: Hipermídia e o Futuro da Informação [Gravação Própria]</div></div></div>
+  <img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <div class="info-box"><p>🔗 <strong>Link externo:</strong> Projeto Xanadu de Ted Nelson: xanadu.com</p></div>
+  <h3>Do Hipertexto à Hipermídia</h3>
+  <p>O hipertexto permite a conexão entre blocos de texto por meio de links. A hipermídia expande esse conceito ao integrar múltiplos formatos de mídia dentro dessas conexões, criando experiências mais ricas e interativas.</p>
 
-      <h3>Referências</h3>
-      <ul class="ref-list">
-        <li>BUSH, Vannevar. <em>As We May Think</em>. The Atlantic Monthly, 1945.</li>
-        <li>NELSON, Theodore. <em>Literary Machines</em>. Mindful Press, 1981.</li>
-        <li>LANDOW, George P. <em>Hypertext 3.0</em>. Johns Hopkins University Press, 2006.</li>
-      </ul>
-    `
+  <p>Com o avanço da internet, especialmente com a criação da World Wide Web, a hipermídia tornou-se o padrão dominante de organização da informação digital.</p>
+
+  <h3>Hipermídia na Prática</h3>
+  <ul>
+    <li>Websites que combinam texto, imagem, vídeo e navegação por links</li>
+    <li>E-books interativos com recursos multimídia</li>
+    <li>Enciclopédias digitais com navegação interconectada</li>
+    <li>Jogos digitais com narrativa não-linear</li>
+  </ul>
+
+  <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8" style="width:100%; border-radius:10px; margin:15px 0;">
+
+  <!-- ✏️ EDITE -->
+  <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo</div><div class="media-title">Ted Nelson e o Hipertexto</div><div class="media-src">https://www.youtube.com/watch?v=En_2T7KH6RA</div></div></div>
+  <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo</div><div class="media-title">Como Funciona a Web</div><div class="media-src">https://www.youtube.com/watch?v=7_LPdttKXPc</div></div></div>
+  <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio</div><div class="media-title">Narração: Hipermídia e o Futuro da Informação</div></div></div>
+
+  <h3>Por que a Hipermídia é Importante?</h3>
+  <p>A hipermídia mudou completamente a forma como consumimos informação. Em vez de seguir uma sequência fixa, o usuário pode explorar conteúdos conforme seus interesses, criando uma experiência personalizada.</p>
+
+  <p>Essa lógica está presente em praticamente toda a internet atual — desde redes sociais até plataformas educacionais — tornando a navegação mais dinâmica e eficiente.</p>
+
+  <div class="info-box">
+    <p>🔗 <strong>Link externo:</strong> Projeto Xanadu de Ted Nelson: xanadu.com</p>
+  </div>
+
+  <h3>Referências</h3>
+  <ul class="ref-list">
+    <li>BUSH, Vannevar. <em>As We May Think</em>. The Atlantic Monthly, 1945.</li>
+    <li>NELSON, Theodore. <em>Literary Machines</em>. Mindful Press, 1981.</li>
+    <li>LANDOW, George P. <em>Hypertext 3.0</em>. Johns Hopkins University Press, 2006.</li>
+  </ul>
+`
   },
   {
     id: 5, num: '05',
