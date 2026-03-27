@@ -570,12 +570,115 @@ body: `
 </ul>
 ` },
   {
-    id: 9, num: '09', cat: 'imagem', catLabel: '🖼 Imagem Digital', catColor: '#00e5ff',
-    title: 'Imagens e seus Formatos',
-    excerpt: 'PNG, JPEG, WebP, SVG — cada formato tem sua razão de existir.',
-    tags: ['Imagem','PNG','JPEG','WebP','SVG'], date: 'Mai 2025', readTime: '6 min',
-    body: `<p>Formatos de imagem representam filosofias diferentes de armazenar informação visual.</p><h3>Imagens Rasterizadas</h3><h4>JPEG</h4><ul><li>Compressão com perda (lossy)</li><li>Ideal para fotografias</li><li>Não suporta transparência</li></ul><h4>PNG</h4><ul><li>Compressão sem perda (lossless)</li><li>Suporta transparência</li><li>Ideal para logos e ícones</li></ul><h4>WebP</h4><ul><li>Formato moderno do Google</li><li>Até 30% menor que JPEG</li><li>Suporta transparência e animação</li></ul><h3>Imagens Vetoriais (SVG)</h3><ul><li>Escala infinitamente sem perda</li><li>Editável com CSS e JavaScript</li><li>Ideal para logos e ícones</li></ul><!-- ✏️ EDITE --><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Todos os Formatos de Imagem Explicados</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">JPEG vs PNG vs WebP</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Imagens na Web</div><div class="media-src">anchor.fm/SEU_PODCAST</div></div></div><h3>Guia Rápido</h3><ul><li>📸 Foto para web → <strong>WebP ou JPEG</strong></li><li>🎨 Logo → <strong>SVG ou PNG</strong></li><li>🖨 Impressão → <strong>TIFF ou PDF</strong></li></ul><div class="info-box"><p>🔗 web.dev/choose-the-right-image-format</p></div><h3>Referências</h3><ul class="ref-list"><li>GONZALEZ, Rafael C.; WOODS, Richard E. <em>Digital Image Processing</em>. Pearson, 2018.</li></ul>`
-  },
+    id: 9, num: '09', 
+cat: 'imagem', catLabel: '🖼 Imagem Digital', catColor: '#00e5ff',
+title: 'Imagens e seus Formatos',
+excerpt: 'PNG, JPEG, WebP, SVG — cada formato tem sua razão de existir.',
+tags: ['Imagem','PNG','JPEG','WebP','SVG'], 
+date: 'Mai 2025', readTime: '6 min',
+
+body: `
+<p>Formatos de imagem representam diferentes formas de armazenar e exibir informação visual. Cada formato foi criado com um objetivo específico — seja reduzir tamanho de arquivo, manter qualidade ou permitir edição.</p>
+
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Imagens Rasterizadas</h3>
+<p>Imagens rasterizadas são compostas por pixels. Isso significa que possuem resolução fixa e podem perder qualidade ao serem ampliadas.</p>
+
+<h4>JPEG</h4>
+<ul>
+  <li>Compressão com perda (lossy)</li>
+  <li>Ideal para fotografias</li>
+  <li>Arquivos leves</li>
+  <li>Não suporta transparência</li>
+</ul>
+
+<h4>PNG</h4>
+<ul>
+  <li>Compressão sem perda (lossless)</li>
+  <li>Alta qualidade</li>
+  <li>Suporta transparência</li>
+  <li>Ideal para logos e interfaces</li>
+</ul>
+
+<h4>WebP</h4>
+<ul>
+  <li>Formato moderno desenvolvido pelo Google</li>
+  <li>Arquivos menores que JPEG e PNG</li>
+  <li>Suporta transparência e animação</li>
+  <li>Ideal para web moderna</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Imagens Vetoriais (SVG)</h3>
+<p>Diferente das imagens rasterizadas, imagens vetoriais são baseadas em fórmulas matemáticas. Isso permite que sejam redimensionadas infinitamente sem perda de qualidade.</p>
+
+<ul>
+  <li>Escala infinita sem perda</li>
+  <li>Arquivos leves para gráficos simples</li>
+  <li>Editável com CSS e JavaScript</li>
+  <li>Ideal para logos, ícones e interfaces</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1558655146-d09347e92766" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<!-- LINKS CLICÁVEIS -->
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Todos os Formatos de Imagem Explicados</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=V0Gx8K2jC0g" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">JPEG vs PNG vs WebP</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=6WZQ2E1rV6k" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🔊</span>
+  <div>
+    <div class="media-label">Áudio</div>
+    <div class="media-title">Podcast: Imagens na Web</div>
+    <div class="media-src">
+      <a href="https://anchor.fm/" target="_blank">
+        ▶ Ouvir podcast
+      </a>
+    </div>
+  </div>
+</div>
+
+<h3>Guia Rápido</h3>
+<ul>
+  <li>📸 Foto para web → <strong>WebP ou JPEG</strong></li>
+  <li>🎨 Logo → <strong>SVG ou PNG</strong></li>
+  <li>🖨 Impressão → <strong>TIFF ou PDF</strong></li>
+</ul>
+
+<div class="info-box">
+<p>🔗 web.dev/choose-the-right-image-format</p>
+</div>
+
+<h3>Referências</h3>
+<ul class="ref-list">
+<li>GONZALEZ, Rafael C.; WOODS, Richard E. <em>Digital Image Processing</em>. Pearson, 2018.</li>
+</ul>
+` },
   {
     id: 10, num: '10', cat: 'imagem', catLabel: '🖼 Processamento de Imagens', catColor: '#00e5ff',
     title: 'Processamento de Imagens',
