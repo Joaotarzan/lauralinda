@@ -82,7 +82,7 @@ const POSTS = [
     date: 'Mar 2026', readTime: '6 min',
     body: `
      <p>O termo <strong>multimídia</strong> refere-se à integração de múltiplas formas de mídia — texto, imagem, áudio, vídeo e animação — em um único suporte ou experiência. Mais do que apenas juntar elementos, a multimídia busca criar uma comunicação mais rica, dinâmica e eficiente.</p>
-      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475" style="width:100%; border-radius:10px; margin:15px 0;">
+  <img src="../js/img/mult.png" style="width:50%; border-radius:10px; margin:15px 0;">
       <h3>Componentes da Multimídia</h3>
   <ul>
     <li><strong>Texto:</strong > 
