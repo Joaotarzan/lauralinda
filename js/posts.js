@@ -96,7 +96,7 @@ const POSTS = [
     </li>
   </ul>
 
-  <img src="../js/img/mult.png" style="width:100%; border-radius:10px; margin:15px 0;">
+  <img src="../js/img/mult.png" style="width:50%; border-radius:10px; margin:15px 0;">
 
   <ul>
     <li><strong>Áudio:</strong> 
