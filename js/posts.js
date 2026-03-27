@@ -401,12 +401,93 @@ O projeto demonstra como a AR pode ser aplicada de forma acessível no ensino e 
 `
  },
   {
-    id: 7, num: '07', cat: 'xr', catLabel: '🔀 Realidade Mista', catColor: '#ff4d8d',
-    title: 'Realidade Mista: Hardware e Software',
-    excerpt: 'Quando o virtual e o físico coexistem e interagem.',
-    tags: ['MR','Realidade Mista','Metaverso','Spatial Computing'], date: 'Abr 2025', readTime: '6 min',
-    body: `<p>A <strong>Realidade Mista (MR)</strong> permite que objetos virtuais interajam com o ambiente real.</p><h3>O Continuum de Milgram</h3><p>Paul Milgram definiu em 1994 o "Reality-Virtuality Continuum" — uma linha do mundo real ao completamente virtual, com MR no meio.</p><h3>Hardware de MR</h3><ul><li><strong>Microsoft HoloLens 2:</strong> Principal dispositivo MR empresarial</li><li><strong>Apple Vision Pro:</strong> Spatial Computer</li><li><strong>Magic Leap 2:</strong> Para uso industrial e médico</li></ul><!-- ✏️ EDITE --><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 1</div><div class="media-title">Apple Vision Pro: Spatial Computing</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo Externo 2</div><div class="media-title">VR vs AR vs MR — Diferenças</div><div class="media-src">youtube.com/watch?v=SEU_VIDEO_AQUI</div></div></div><div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio Externo</div><div class="media-title">Podcast: Metaverso e Realidade Mista</div><div class="media-src">spotify.com/SEU_PODCAST</div></div></div><h3>Exemplo Prático</h3><p>Na <strong>Boeing</strong>, técnicos usam HoloLens para instruções de montagem sobrepostas na aeronave real — reduzindo tempo em 25% e erros em 50%.</p><div class="info-box"><p>🔗 learn.microsoft.com/mixed-reality | developer.apple.com/visionos</p></div><h3>Referências</h3><ul class="ref-list"><li>MILGRAM, Paul; KISHINO, Fumio. <em>A Taxonomy of Mixed Reality Visual Displays</em>. IEICE, 1994.</li></ul>`
-  },
+id: 7, num: '07', 
+cat: 'xr', catLabel: '🔀 Realidade Mista', catColor: '#ff4d8d',
+title: 'Realidade Mista: Hardware e Software',
+excerpt: 'Quando o virtual e o físico coexistem e interagem.',
+tags: ['MR','Realidade Mista','Metaverso','Spatial Computing'], 
+date: 'Abr 2025', readTime: '6 min',
+
+body: `
+<p>A <strong>Realidade Mista (MR)</strong> combina elementos do mundo real e virtual, permitindo que objetos digitais não apenas apareçam no ambiente físico, mas também interajam com ele em tempo real. Essa integração cria experiências mais avançadas do que a realidade aumentada e mais conectadas ao mundo real do que a realidade virtual.</p>
+
+<img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>O Continuum de Milgram</h3>
+<p>Em 1994, Paul Milgram e Fumio Kishino propuseram o conceito de <strong>Reality-Virtuality Continuum</strong>, uma escala que vai do ambiente completamente real até o totalmente virtual.</p>
+
+<p>No meio dessa escala está a Realidade Mista, onde elementos físicos e digitais coexistem e interagem. Esse conceito é fundamental para entender como tecnologias como AR, VR e MR se relacionam.</p>
+
+<img src="https://images.unsplash.com/photo-1581090700227-1e8a5b5f3f68" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Hardware de MR</h3>
+<p>Os dispositivos de MR são projetados para mapear o ambiente real e posicionar objetos virtuais de forma precisa, permitindo interação natural.</p>
+
+<ul>
+  <li><strong>Microsoft HoloLens 2:</strong> Principal dispositivo MR voltado para empresas, com interação por gestos e mapeamento espacial avançado.</li>
+  <li><strong>Apple Vision Pro:</strong> Considerado um "computador espacial", combina realidade virtual e aumentada em uma experiência híbrida.</li>
+  <li><strong>Magic Leap 2:</strong> Focado em aplicações industriais, médicas e de engenharia.</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<!-- LINKS CLICÁVEIS -->
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">Apple Vision Pro: Spatial Computing</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=TX9qSaGXFyg" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🎬</span>
+  <div>
+    <div class="media-label">Vídeo</div>
+    <div class="media-title">VR vs AR vs MR — Diferenças</div>
+    <div class="media-src">
+      <a href="https://www.youtube.com/watch?v=8hYlB38asDY" target="_blank">
+        ▶ Assistir no YouTube
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="media-block">
+  <span class="media-icon">🔊</span>
+  <div>
+    <div class="media-label">Áudio</div>
+    <div class="media-title">Podcast: Metaverso e Realidade Mista</div>
+    <div class="media-src">
+      <a href="https://spotify.com/" target="_blank">
+        ▶ Ouvir podcast
+      </a>
+    </div>
+  </div>
+</div>
+
+<h3>Exemplo Prático</h3>
+
+<p>Na <strong>Boeing</strong>, técnicos utilizam dispositivos como o HoloLens para visualizar instruções de montagem diretamente sobre a aeronave real. Essas instruções aparecem alinhadas ao ambiente físico, reduzindo erros e aumentando a eficiência do processo.</p>
+
+<p>Esse tipo de aplicação demonstra como a Realidade Mista pode transformar processos industriais, treinamento e manutenção, tornando tarefas complexas mais intuitivas e precisas.</p>
+
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<div class="info-box">
+<p>🔗 learn.microsoft.com/mixed-reality | developer.apple.com/visionos</p>
+</div>
+
+<h3>Referências</h3>
+<ul class="ref-list">
+<li>MILGRAM, Paul; KISHINO, Fumio. <em>A Taxonomy of Mixed Reality Visual Displays</em>. IEICE, 1994.</li>
+</ul>
+` },
   {
     id: 8, num: '08', cat: 'xr', catLabel: '🔮 Holografia', catColor: '#39d98a',
     title: 'Holografia: Hardware e Software',
