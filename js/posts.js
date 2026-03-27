@@ -10,7 +10,7 @@ const POSTS = [
     title: 'Quem Somos Nós',
     excerpt: 'Conheça os autores deste blog e a proposta da disciplina de Multimídias que motivou a sua criação.',
     tags: ['Apresentação','Blog','Disciplina'],
-    date: 'Mar 2025', readTime: '3 min',
+    date: 'Mar 2026', readTime: '3 min',
     body: `
       <p>Bem-vindo ao <strong>MultimídiaLab</strong>! Este blog é um projeto acadêmico desenvolvido no contexto da disciplina de Multimídias.</p>
       <h3>Os Autores</h3>
