@@ -96,7 +96,7 @@ const POSTS = [
     </li>
   </ul>
 
-  <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" style="width:100%; border-radius:10px; margin:15px 0;">
+  <img src="img/mult.png" style="width:100%; border-radius:10px; margin:15px 0;">
 
   <ul>
     <li><strong>Áudio:</strong> 
