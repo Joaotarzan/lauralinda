@@ -73,6 +73,7 @@ const POSTS = [
       </ul>
     `
   },
+   {
  id: 3, num: '03',
     cat: 'midia', catLabel: '📺 Multimídia', catColor: '#ff6230',
     title: 'Multimídia: Conceito e Aplicações',
