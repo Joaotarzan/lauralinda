@@ -243,9 +243,7 @@ body: `
       <div class="media-label">Vídeo</div>
       <div class="media-title">Como Funciona a Realidade Virtual</div>
       <div class="media-src">
-        <a href="https://www.youtube.com/watch?v=R9kF9Lr3R8s" target="_blank">
-          ▶ Assistir no YouTube
-        </a>
+        <a href="https://www.youtube.com/watch?v=R9kF9Lr3R8s" target="_blank">        </a>
       </div>
     </div>
   </div>
@@ -257,7 +255,6 @@ body: `
       <div class="media-title">Meta Quest 3 — Demonstração</div>
       <div class="media-src">
         <a href="https://www.youtube.com/watch?v=U6p1sR7w2lQ" target="_blank">
-          ▶ Assistir no YouTube
         </a>
       </div>
     </div>
@@ -270,7 +267,6 @@ body: `
       <div class="media-title">Podcast: O Futuro da Realidade Virtual</div>
       <div class="media-src">
         <a href="https://spotify.com/" target="_blank">
-          ▶ Ouvir podcast
         </a>
       </div>
     </div>
