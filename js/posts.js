@@ -96,8 +96,6 @@ const POSTS = [
     </li>
   </ul>
 
-  <img src="../js/img/mult.png" style="width:50%; border-radius:10px; margin:15px 0;">
-
   <ul>
     <li><strong>Áudio:</strong> 
      O áudio permite o consumo de conteúdo de forma passiva, acompanhando o usuário em diferentes momentos do dia. Podcasts, narrações e trilhas sonoras ampliam a experiência e aumentam o engajamento.
