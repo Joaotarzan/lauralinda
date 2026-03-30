@@ -284,7 +284,6 @@ body: `
     <li>Jogos digitais</li>
   </ul>
 
-  <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200" style="width:100%; border-radius:10px; margin:15px 0;">
 
   <div class="info-box">
     <p>🔗 <strong>Saiba mais:</strong> developer.mozilla.org/WebXR | docs.unity3d.com/vr</p>
