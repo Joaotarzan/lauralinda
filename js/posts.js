@@ -305,7 +305,7 @@ date: 'Abr 2025', readTime: '7 min',
 body: `
 <p>A <strong>Realidade Aumentada (AR)</strong> é uma tecnologia que sobrepõe elementos digitais ao mundo físico em tempo real. Diferente da realidade virtual, que cria um ambiente totalmente artificial, a AR mantém o usuário no mundo real, enriquecendo-o com informações visuais interativas.</p>
 
-<img src="../js/img/cuno.png" style="width:100%; border-radius:10px; margin:15px 0;">
+<img src="https://insidetecnologia.com/site/wp-content/uploads/2024/05/A-futuristic-scene-showcasing-augmented-reality-in-action.-The-image-depicts-a-user-interacting-with-virtual-3D-objects-overlaid-on-the-real-world-via.webp" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <h3>Hardware de AR</h3>
 <p>O hardware de AR é responsável por capturar o ambiente real e inserir objetos digitais de forma precisa e alinhada ao espaço físico.</p>
