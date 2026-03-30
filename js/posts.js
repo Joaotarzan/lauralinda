@@ -511,7 +511,7 @@ body: `
   <li><strong>Voxon Photonics:</strong> Tecnologia que cria volumes reais de luz no espaço, aproximando-se da holografia “verdadeira”.</li>
 </ul>
 
-<img src="../js/img/holograma_nos_smartphones_20903_3_600" style="width:100%; border-radius:10px; margin:15px 0;">
+<img src="../js/img/holograma_nos_smartphones_20903_3_600.jpg" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <h3>Aplicações Reais</h3>
 
@@ -521,7 +521,7 @@ body: `
 
 <p><strong>Educação:</strong> Modelos tridimensionais ajudam na compreensão de estruturas complexas, como moléculas ou sistemas biológicos.</p>
 
-<img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f" style="width:100%; border-radius:10px; margin:15px 0;">
+<img src="../js/img/holograma-medicina.jpg" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <!-- LINKS CLICÁVEIS -->
 <div class="media-block">
