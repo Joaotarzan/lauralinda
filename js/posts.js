@@ -305,7 +305,7 @@ date: 'Abr 2025', readTime: '7 min',
 body: `
 <p>A <strong>Realidade Aumentada (AR)</strong> é uma tecnologia que sobrepõe elementos digitais ao mundo físico em tempo real. Diferente da realidade virtual, que cria um ambiente totalmente artificial, a AR mantém o usuário no mundo real, enriquecendo-o com informações visuais interativas.</p>
 
-<img src="https://images.unsplash.com/photo-1581091012184-5c1b4b0f0c54" style="width:100%; border-radius:10px; margin:15px 0;">
+<img src="../js/img/cuno.png" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <h3>Hardware de AR</h3>
 <p>O hardware de AR é responsável por capturar o ambiente real e inserir objetos digitais de forma precisa e alinhada ao espaço físico.</p>
@@ -381,12 +381,9 @@ body: `
 <p><strong>Projeto Próprio — Merge Cube:</strong> 
 Desenvolvi uma experiência utilizando o Merge Cube, um cubo físico que, ao ser reconhecido pela câmera, permite a visualização de objetos 3D em realidade aumentada. 
 O projeto demonstra como a AR pode ser aplicada de forma acessível no ensino e na visualização de conteúdos digitais, tornando a interação mais imersiva e intuitiva.</p>
+  
+   <img src="../js/img/cubo.png" style="width:100%; border-radius:10px; margin:15px 0;">
 
-<!-- CAMPO PARA IMAGEM DO SEU PROJETO -->
-<div style="margin:15px 0;">
-  <p><strong>📸 Imagem do Projeto:</strong></p>
-  <input type="file" accept="image/*">
-</div>
 
 <div class="info-box">
 <p>🔗 aframe.io | experiments.withgoogle.com/collection/ar</p>
