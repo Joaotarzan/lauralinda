@@ -425,7 +425,6 @@ body: `
   <li><strong>Magic Leap 2:</strong> Focado em aplicações industriais, médicas e de engenharia.</li>
 </ul>
 
-<img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <!-- LINKS CLICÁVEIS -->
 <div class="media-block">
@@ -473,7 +472,6 @@ body: `
 
 <p>Esse tipo de aplicação demonstra como a Realidade Mista pode transformar processos industriais, treinamento e manutenção, tornando tarefas complexas mais intuitivas e precisas.</p>
 
-<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <div class="info-box">
 <p>🔗 learn.microsoft.com/mixed-reality | developer.apple.com/visionos</p>
