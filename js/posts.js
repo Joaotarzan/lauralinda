@@ -495,7 +495,7 @@ body: `
 
 <p>Um holograma é formado a partir da interferência entre dois feixes de laser: o feixe de referência e o feixe refletido pelo objeto. Essa interação gera um padrão que pode ser reconstruído posteriormente, criando a ilusão tridimensional.</p>
 
-<img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb" style="width:100%; border-radius:10px; margin:15px 0;">
+<img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <h3>Hardware Holográfico</h3>
 
