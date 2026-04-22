@@ -1,3 +1,8 @@
+/* ============================================================
+   MultimídiaLab — posts.js (VERSÃO BLOG EXPANDIDA)
+   BLOCO 1 — POSTS 1 AO 5
+   ============================================================ */
+
 const POSTS = [
   {
     id: 1, num: '01',
@@ -7,29 +12,43 @@ const POSTS = [
     tags: ['Apresentação','Blog','Disciplina'],
     date: 'Mar 2026', readTime: '3 min',
     body: `
-      <p>Fala! Seja bem-vindo ao <strong>MultimídiaLab</strong>. Esse blog nasceu basicamente como um trabalho da faculdade... mas a ideia não foi só “entregar algo e pronto”. A gente quis montar algo que realmente tivesse cara de internet, sabe? Algo que desse vontade de ler.</p>
+      <p>Fala aí 👋 Seja muito bem-vindo ao <strong>MultimídiaLab</strong>.</p>
+
+      <p>Esse blog começou como um trabalho da faculdade… mas não demorou muito pra gente perceber que dava pra ir além do básico. Em vez de só “entregar um trabalho”, a gente quis montar algo que realmente tivesse cara de projeto nosso.</p>
+
+      <p>A ideia aqui é simples: mostrar o que a gente aprendeu, mas de um jeito mais leve, mais direto e sem aquele clima engessado de texto acadêmico.</p>
 
       <h3>Os Autores</h3>
-      <p>Somos dois estudantes que curtem tecnologia, mas cada um com seu jeitão. Esse blog é meio que um reflexo disso: mistura de teoria com prática e um pouco da nossa visão também.</p>
 
-      <p><strong>Aluno 1:</strong> João Carlos — Estudante de Informática para Negócios</p>
-      <p><strong>Aluno 2:</strong> Laura Conte — Estudante de Informática para Negócios</p>
+      <p>Por trás disso aqui estão dois estudantes tentando equilibrar faculdade, prazos e vida — e no meio disso tudo, criar algo que faça sentido.</p>
+
+      <p><strong>Aluno 1:</strong> João Carlos — sempre mexendo com tecnologia, curioso com interfaces e com essa parte mais visual do digital.</p>
+
+      <p><strong>Aluno 2:</strong> Laura Conte — focada em organização, design e em como deixar conteúdo mais claro e fácil de consumir.</p>
+
+      <p>Esse blog é basicamente um reflexo do nosso processo — não só o resultado final.</p>
 
       <img src="../js/img/icon.png" style="width:40%; border-radius:10px; margin:15px 0;">
 
       <h3>Sobre a Disciplina</h3>
-      <p>A matéria de Multimídia basicamente mostra como tudo que a gente consome hoje na internet não é só texto. É imagem, som, vídeo, interação… tudo junto. E entender isso muda totalmente a forma de criar conteúdo.</p>
+
+      <p>A disciplina de Multimídias mostrou pra gente que conteúdo digital não é só texto bonito com imagem jogada do lado.</p>
+
+      <p>É sobre combinar diferentes mídias de um jeito que faça sentido — e que realmente melhore a experiência de quem tá consumindo aquilo.</p>
 
       <h3>O que você vai encontrar aqui</h3>
+
       <ul>
-        <li>Explicações sem aquele clima de livro chato</li>
-        <li>Exemplos mais próximos do mundo real</li>
-        <li>Vídeos e conteúdos que a gente realmente assistiria</li>
-        <li>Coisas que a gente foi aprendendo na prática</li>
-        <li>Projetos feitos durante o semestre (sem enrolação)</li>
+        <li>Explicações mais diretas e sem enrolação</li>
+        <li>Exemplos reais (não só teoria)</li>
+        <li>Vídeos, imagens e áudios pra complementar</li>
+        <li>Algumas opiniões nossas no meio</li>
+        <li>E os projetos que fomos desenvolvendo</li>
       </ul>
 
-      <div class="info-box"><p>📌 A ideia é ir atualizando isso aqui conforme a matéria vai avançando.</p></div>
+      <div class="info-box">
+        <p>📌 Esse blog foi sendo construído ao longo do semestre — então ele evolui junto com a gente.</p>
+      </div>
 
       <h3>Referências</h3>
       <ul class="ref-list">
@@ -47,20 +66,28 @@ const POSTS = [
     tags: ['Blog','Comunicação','Mídia Digital'],
     date: 'Mar 2026', readTime: '4 min',
     body: `
-      <p>Quando a gente começou esse projeto, a primeira dúvida foi: “mano, por que um blog?”. Só que aí fez sentido rápido. Criar um blog é literalmente aplicar multimídia na prática.</p>
+      <p>Quando a gente ouviu “criar um blog”, parecia algo simples… tipo escrever texto e pronto.</p>
 
-      <p>Não é só escrever texto. É misturar vídeo, imagem, áudio, link… tudo no mesmo lugar. Ou seja, você não estuda multimídia — você usa.</p>
+      <p>Mas na prática, a gente percebeu que um blog é praticamente um laboratório de multimídia.</p>
+
+      <p>Aqui dentro você não trabalha só com texto — você junta vídeo, imagem, áudio, link… tudo no mesmo espaço.</p>
 
       <h3>Por que um Blog?</h3>
-      <p>Porque aqui dá pra juntar tudo. Não precisa seguir uma ordem fixa, dá pra clicar, voltar, explorar… é muito mais parecido com a internet real do que um trabalho em PDF.</p>
+
+      <p>Porque ele permite exatamente isso: misturar tudo.</p>
+
+      <p>Diferente de um trabalho tradicional, aqui dá pra navegar, clicar, explorar… cada pessoa pode consumir do seu jeito.</p>
 
       <h3>Objetivos do Projeto</h3>
+
       <ul>
-        <li>Registrar o que a gente foi aprendendo ao longo do tempo</li>
-        <li>Treinar criação de conteúdo de verdade (não só teoria)</li>
-        <li>Melhorar a forma de explicar ideias</li>
-        <li>Ter algo pronto que dá até pra usar como portfólio depois</li>
+        <li>Registrar o que a gente foi aprendendo</li>
+        <li>Praticar criação de conteúdo digital de verdade</li>
+        <li>Melhorar comunicação (explicar bem não é fácil)</li>
+        <li>Criar algo que a gente possa mostrar depois</li>
       </ul>
+
+      <p>No fim, esse blog virou mais do que um trabalho — virou tipo um portfólio.</p>
 
       <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo 🎬</div><div class="media-title">O que é Comunicação Digital?</div><div class="media-src">https://youtu.be/nKPyvZSfNTc?si=luQ7ua0opY3hKyKH</div></div></div>
 
@@ -84,28 +111,43 @@ const POSTS = [
     tags: ['Multimídia','Mídia','Digital','História'],
     date: 'Mar 2026', readTime: '6 min',
     body: `
-      <p>Multimídia não é só um nome bonito que professor usa. É basicamente tudo que a gente consome hoje na internet. Literalmente tudo.</p>
+      <p>Quando a gente fala “multimídia”, parece um termo meio técnico… mas na real você usa isso o tempo todo sem perceber.</p>
 
-      <p>Pensa: você abre um site — tem texto, imagem, vídeo, botão, animação… isso tudo junto é multimídia. Não é só juntar coisa aleatória, é fazer tudo funcionar junto.</p>
+      <p>Instagram, YouTube, TikTok, sites — tudo isso é multimídia.</p>
 
       <img src="../js/img/mult.png" style="width:50%; border-radius:10px; margin:15px 0;">
 
-      <h3>Componentes da Multimídia</h3>
+      <h3>O que realmente é?</h3>
+
+      <p>É basicamente juntar várias formas de conteúdo no mesmo lugar: texto, imagem, áudio, vídeo e interação.</p>
+
+      <p>Mas não é só juntar — é fazer tudo funcionar junto.</p>
+
+      <h3>Componentes</h3>
 
       <ul>
-        <li><strong>Texto:</strong> ainda é a base de tudo. Mesmo com vídeo e áudio, é o texto que organiza e explica as ideias.</li>
-        <li><strong>Imagem:</strong> chama atenção na hora. Muitas vezes explica melhor que mil palavras.</li>
-        <li><strong>Áudio:</strong> perfeito pra consumir conteúdo sem ficar olhando pra tela o tempo todo.</li>
-        <li><strong>Vídeo:</strong> mistura tudo — imagem + som + movimento. É o mais completo.</li>
-        <li><strong>Interatividade:</strong> é o que faz você participar, não só assistir.</li>
+        <li><strong>Texto:</strong> ainda é a base de tudo</li>
+        <li><strong>Imagem:</strong> chama atenção na hora</li>
+        <li><strong>Áudio:</strong> cria imersão</li>
+        <li><strong>Vídeo:</strong> junta tudo</li>
+        <li><strong>Interatividade:</strong> prende o usuário</li>
       </ul>
 
       <img src="https://images.unsplash.com/photo-1535223289827-42f1e9919769" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <p>No fim, multimídia é isso: não é só conteúdo… é experiência.</p>
+      <p>No fim, multimídia é sobre experiência.</p>
+
+      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo</div><div class="media-title">História da Multimídia</div><div class="media-src">https://www.youtube.com/watch?v=Q7EG9VnM0h4</div></div></div>
+
+      <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo</div><div class="media-title">Multimídia: Definição</div><div class="media-src">https://www.youtube.com/watch?v=0bJz2mQyXyQ</div></div></div>
+
+      <div class="info-box">
+        <p>🚀 Hoje, praticamente tudo na internet é multimídia.</p>
+      </div>
     `
   },
-     {
+
+  {
     id: 4, num: '04',
     cat: 'midia', catLabel: '📺 Hipermídia', catColor: '#ff6230',
     title: 'Hipermídia: Além do Hipertexto',
@@ -113,33 +155,27 @@ const POSTS = [
     tags: ['Hipermídia','Hipertexto','Web','Navegação'],
     date: 'Mar 2026', readTime: '5 min',
     body: `
-      <p>Se multimídia já mistura tudo, a <strong>hipermídia</strong> vai além: ela conecta tudo. Não é só conteúdo — é conteúdo com caminhos.</p>
+      <p>Se multimídia já é juntar várias mídias… hipermídia é quando você conecta tudo isso.</p>
 
-      <p>Sabe quando você tá lendo algo e vai clicando em link atrás de link e, do nada, já tá em outro assunto totalmente diferente? Então… isso é hipermídia na prática.</p>
+      <p>É o que permite você sair clicando de um conteúdo pra outro sem seguir uma ordem fixa.</p>
 
       <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <h3>A Origem: O Memex</h3>
-      <p>Muito antes da internet existir, um cara chamado Vannevar Bush já tava pensando nisso. Ele imaginou uma máquina chamada <strong>Memex</strong>, que conectava informações como se fosse a mente humana.</p>
-
-      <p>Não existia tecnologia pra fazer isso na época, mas a ideia virou base pra tudo que a gente usa hoje na web.</p>
-
-      <h3>Do Hipertexto à Hipermídia</h3>
-      <p>O hipertexto conecta textos. Já a hipermídia conecta tudo: vídeo, áudio, imagem, interação… tudo linkado.</p>
-
-      <p>Basicamente, é isso que transforma a internet num lugar explorável e não só linear.</p>
+      <p>Basicamente, é o que faz a internet ser… a internet.</p>
 
       <h3>Na prática</h3>
+
       <ul>
-        <li>Sites com navegação por links</li>
-        <li>Blogs (tipo esse aqui)</li>
-        <li>Jogos com múltiplos caminhos</li>
-        <li>Plataformas como Wikipedia</li>
+        <li>Links entre páginas</li>
+        <li>Sites interativos</li>
+        <li>Conteúdo não-linear</li>
       </ul>
 
-      <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8" style="width:100%; border-radius:10px; margin:15px 0;">
+      <p>Você não segue um caminho — você escolhe.</p>
 
-      <p>No fim das contas, a hipermídia é o que faz a internet não ser uma “linha reta”, mas sim um mapa cheio de caminhos.</p>
+      <div class="info-box">
+        <p>🔗 A hipermídia é o que transforma conteúdo em experiência explorável.</p>
+      </div>
     `
   },
 
@@ -151,257 +187,311 @@ const POSTS = [
     tags: ['VR','Realidade Virtual','HMD','Unity','Unreal'],
     date: 'Abr 2025', readTime: '8 min',
     body: `
-      <p>A <strong>Realidade Virtual</strong> é aquele negócio que parece coisa de filme… até você colocar um óculos VR e perceber que é real mesmo.</p>
+      <p>Realidade Virtual é uma daquelas coisas que parecem coisa de filme… até você testar.</p>
 
-      <p>A sensação é muito doida: você sabe que tá no seu quarto, mas seu cérebro começa a acreditar que tá em outro lugar.</p>
+      <p>Quando você coloca um óculos VR, você literalmente “entra” em outro ambiente.</p>
 
       <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Hardware</h3>
-      <p>Os dispositivos são o que fazem tudo acontecer. Sem eles, não tem imersão nenhuma.</p>
 
       <ul>
-        <li><strong>Meta Quest 3:</strong> mais acessível, não precisa de PC</li>
-        <li><strong>PS VR2:</strong> focado em console</li>
-        <li><strong>Valve Index:</strong> qualidade absurda</li>
-        <li><strong>Apple Vision Pro:</strong> outro nível (e outro preço também)</li>
+        <li>Meta Quest</li>
+        <li>PS VR</li>
+        <li>Valve Index</li>
       </ul>
-
-      <img src="https://images.unsplash.com/photo-1592478411213-6153e4ebc07d" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Software</h3>
-      <p>Sem software, o hardware não faz nada. É aqui que os mundos são criados.</p>
 
       <ul>
-        <li><strong>Unity:</strong> mais usado</li>
-        <li><strong>Unreal:</strong> gráficos insanos</li>
-        <li><strong>WebXR:</strong> VR direto no navegador</li>
+        <li>Unity</li>
+        <li>Unreal Engine</li>
       </ul>
 
-      <p>VR não é só jogo. Já tem uso em medicina, treinamento e até arquitetura.</p>
+      <p>Sem software, o hardware não faz nada. E sem hardware, o software não tem onde rodar.</p>
 
-      <p>E sendo bem sincero… isso aqui ainda tá só começando.</p>
+      <div class="info-box">
+        <p>🎮 VR não é só jogo — já tá sendo usado em educação e medicina.</p>
+      </div>
     `
-  },
-
+  }
+];
   {
-    id: 6, num: '06',
+    id: 6, num: '06', 
     cat: 'xr', catLabel: '🔮 Realidade Aumentada', catColor: '#ffd060',
     title: 'Realidade Aumentada: Hardware e Software',
-    excerpt: 'Pokémon GO foi só o começo.',
-    tags: ['AR','ARKit','ARCore','WebAR'],
+    excerpt: 'Pokémon GO foi só o começo. Explore como a AR sobrepõe o digital ao físico.',
+    tags: ['AR','ARKit','ARCore','WebAR'], 
     date: 'Abr 2025', readTime: '7 min',
+
     body: `
-      <p>A <strong>Realidade Aumentada</strong> é tipo um “upgrade” do mundo real. Você continua vendo tudo ao seu redor, mas com elementos digitais por cima.</p>
+<p>A primeira vez que muita gente teve contato com <strong>Realidade Aumentada</strong> foi jogando Pokémon GO. E ali já dava pra ter uma noção do potencial disso.</p>
 
-      <p>Se você já usou filtro de Instagram ou jogou Pokémon GO, você já usou AR.</p>
+<p>Mas a real é que AR vai muito além de joguinho. Ela basicamente pega o mundo real e adiciona uma camada digital por cima — em tempo real.</p>
 
-      <img src="https://insidetecnologia.com/site/wp-content/uploads/2024/05/A-futuristic-scene-showcasing-augmented-reality-in-action.-The-image-depicts-a-user-interacting-with-virtual-3D-objects-overlaid-on-the-real-world-via.webp" style="width:100%; border-radius:10px; margin:15px 0;">
+<p>Ou seja: você continua vendo o mundo como ele é… só que com informação extra, objetos virtuais e interação.</p>
 
-      <h3>Hardware</h3>
-      <ul>
-        <li>Celular (o mais comum)</li>
-        <li>HoloLens</li>
-        <li>Magic Leap</li>
-      </ul>
+<img src="https://insidetecnologia.com/site/wp-content/uploads/2024/05/A-futuristic-scene-showcasing-augmented-reality-in-action.-The-image-depicts-a-user-interacting-with-virtual-3D-objects-overlaid-on-the-real-world-via.webp" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <h3>Software</h3>
-      <ul>
-        <li>ARKit</li>
-        <li>ARCore</li>
-        <li>WebAR</li>
-        <li>Spark AR</li>
-      </ul>
+<h3>Hardware de AR</h3>
 
-      <p>O mais interessante da AR é que ela não te tira da realidade — ela melhora ela.</p>
+<p>Diferente da VR, você nem sempre precisa de equipamento caro. Na maioria das vezes, seu próprio celular já resolve.</p>
 
-      <p>Na medicina, isso ajuda cirurgias. No varejo, ajuda você a testar produtos. E na educação… deixa tudo muito mais visual.</p>
+<ul>
+  <li><strong>Smartphones:</strong> são a porta de entrada — praticamente todo mundo já tem</li>
+  <li><strong>HoloLens 2:</strong> mais avançado, usado em empresas</li>
+  <li><strong>Magic Leap:</strong> focado em aplicações profissionais</li>
+</ul>
 
-      <img src="../js/img/cubo.png" style="width:100%; border-radius:10px; margin:15px 0;">
-    `
-  },
+<img src="https://images.unsplash.com/photo-1605379399642-870262d3d051" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<h3>Software</h3>
+
+<p>É aqui que a mágica acontece — o software entende o ambiente e encaixa os objetos digitais no lugar certo.</p>
+
+<ul>
+  <li><strong>ARKit:</strong> para iPhone</li>
+  <li><strong>ARCore:</strong> para Android</li>
+  <li><strong>WebAR:</strong> roda direto no navegador</li>
+  <li><strong>Spark AR:</strong> filtros de Instagram</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<p>Hoje em dia, AR já aparece em tudo: filtro de rede social, apps de loja, educação…</p>
+
+<p>E o mais interessante: você usa sem nem perceber.</p>
+
+<div class="info-box">
+<p>📱 AR é provavelmente a tecnologia mais acessível de todas que vimos até agora.</p>
+</div>
+`
+ },
 
   {
-    id: 7, num: '07',
+    id: 7, num: '07', 
     cat: 'xr', catLabel: '🔀 Realidade Mista', catColor: '#ff4d8d',
     title: 'Realidade Mista: Hardware e Software',
-    excerpt: 'Quando o virtual e o físico coexistem.',
-    tags: ['MR','Realidade Mista','Metaverso'],
+    excerpt: 'Quando o virtual e o físico coexistem e interagem.',
+    tags: ['MR','Realidade Mista','Metaverso','Spatial Computing'], 
     date: 'Abr 2025', readTime: '6 min',
+
     body: `
-      <p>A <strong>Realidade Mista</strong> é tipo o meio termo entre VR e AR… só que mais avançado.</p>
+<p>Se a VR te leva pra um mundo totalmente digital, e a AR adiciona coisas no mundo real… a <strong>Realidade Mista</strong> mistura os dois de um jeito mais profundo.</p>
 
-      <p>A diferença aqui é que os objetos digitais não só aparecem — eles interagem com o mundo real.</p>
+<p>Aqui não é só “ver um objeto virtual”. Ele interage com o ambiente.</p>
 
-      <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485" style="width:100%; border-radius:10px; margin:15px 0;">
+<p>Tipo: ele entende espaço, profundidade, posição… e se comporta como se estivesse ali de verdade.</p>
 
-      <p>Imagina um objeto virtual apoiado na sua mesa de verdade… e você podendo mexer nele. É isso.</p>
+<img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <h3>Dispositivos</h3>
-      <ul>
-        <li>HoloLens</li>
-        <li>Vision Pro</li>
-        <li>Magic Leap</li>
-      </ul>
+<h3>O conceito por trás</h3>
 
-      <p>Isso já tá sendo usado em indústria, manutenção e treinamento.</p>
+<p>Existe uma ideia chamada “continuum da realidade” — que vai do mundo real até o totalmente virtual.</p>
 
-      <p>Não é tão popular ainda… mas quando ficar, vai mudar muita coisa.</p>
-    `
+<p>E a MR fica bem no meio disso.</p>
+
+<h3>Hardware</h3>
+
+<ul>
+  <li>HoloLens</li>
+  <li>Apple Vision Pro</li>
+  <li>Magic Leap</li>
+</ul>
+
+<p>Esses dispositivos são mais avançados porque precisam entender o ambiente inteiro ao redor.</p>
+
+<p>Não é só mostrar — é integrar.</p>
+
+<p>E isso muda completamente o nível da experiência.</p>
+
+<div class="info-box">
+<p>🚀 Realidade Mista é tipo o “próximo nível” da interação digital.</p>
+</div>
+`
   },
 
   {
-    id: 8, num: '08',
+    id: 8, num: '08', 
     cat: 'xr', catLabel: '🔮 Holografia', catColor: '#39d98a',
     title: 'Holografia: Hardware e Software',
-    excerpt: 'De Star Wars à realidade.',
-    tags: ['Holografia','Holograma'],
+    excerpt: 'De Star Wars à realidade — como a holografia funciona e onde é aplicada.',
+    tags: ['Holografia','Holograma','Display 3D'], 
     date: 'Abr 2025', readTime: '7 min',
+
     body: `
-      <p>Holograma parece coisa de filme… mas já existe há muito tempo.</p>
+<p>Holograma parece coisa de filme… mas já é real faz tempo.</p>
 
-      <p>A ideia é criar uma imagem 3D que você pode ver de vários ângulos, como se fosse real.</p>
+<p>A <strong>holografia</strong> basicamente cria imagens 3D usando luz. E o mais louco é que você consegue ver de ângulos diferentes, como se fosse um objeto de verdade.</p>
 
-      <img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
+<img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <p>Isso funciona usando luz e interferência de laser — parece complexo (e é), mas o resultado é absurdo.</p>
+<h3>Como funciona (sem complicar)</h3>
 
-      <h3>Aplicações</h3>
-      <ul>
-        <li>Medicina</li>
-        <li>Shows</li>
-        <li>Educação</li>
-      </ul>
+<p>Ela usa laser pra registrar como a luz reflete em um objeto. Depois, esse padrão é recriado.</p>
 
-      <img src="../js/img/holograma-medicina.jpg" style="width:100%; border-radius:10px; margin:15px 0;">
+<p>Resultado: uma imagem tridimensional que parece “flutuar”.</p>
 
-      <p>Hoje ainda não é algo comum… mas já tá sendo usado em várias áreas importantes.</p>
+<h3>Onde aparece</h3>
 
-      <p>E provavelmente vai ficar cada vez mais presente.</p>
-    `
+<ul>
+  <li>Shows</li>
+  <li>Medicina</li>
+  <li>Educação</li>
+</ul>
+
+<img src="../js/img/holograma_nos_smartphones_20903_3_600.jpg" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<p>Ainda não é algo comum no dia a dia… mas claramente tá evoluindo rápido.</p>
+
+<img src="../js/img/holograma-medicina.jpg" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<div class="info-box">
+<p>🔬 Holografia é uma das tecnologias mais “futuristas” que já estão entre nós.</p>
+</div>
+`
   },
-     {
-    id: 9, num: '09',
+
+  {
+    id: 9, num: '09', 
     cat: 'imagem', catLabel: '🖼 Imagem Digital', catColor: '#00e5ff',
     title: 'Imagens e seus Formatos',
     excerpt: 'PNG, JPEG, WebP, SVG — cada formato tem sua razão de existir.',
-    tags: ['Imagem','PNG','JPEG','WebP','SVG'],
+    tags: ['Imagem','PNG','JPEG','WebP','SVG'], 
     date: 'Mai 2025', readTime: '6 min',
-    body: `
-<p>Se você já mexeu com qualquer coisa na internet, você já lidou com formato de imagem — mesmo sem perceber.</p>
 
-<p>À primeira vista parece tudo igual… mas não é. Cada formato tem um propósito específico, e usar o formato errado pode ferrar qualidade ou desempenho.</p>
+    body: `
+<p>Se você já salvou uma imagem e ficou na dúvida entre PNG ou JPG… você já esbarrou nisso aqui.</p>
+
+<p>Cada formato existe por um motivo — e escolher errado pode ferrar qualidade ou peso do arquivo.</p>
 
 <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" style="width:100%; border-radius:10px; margin:15px 0;">
 
-<h3>Imagens Rasterizadas</h3>
-<p>Essas são as mais comuns. São feitas de pixels, ou seja, se você aumentar demais… já era, vai perder qualidade.</p>
+<h3>Raster (pixel)</h3>
 
-<h4>JPEG</h4>
-<ul>
-<li>Mais leve</li>
-<li>Ideal pra fotos</li>
-<li>Perde qualidade (mas quase não dá pra perceber)</li>
-</ul>
+<p>São imagens feitas de pixels — ou seja, se aumentar demais, perde qualidade.</p>
 
-<h4>PNG</h4>
 <ul>
-<li>Qualidade alta</li>
-<li>Tem transparência</li>
-<li>Mais pesado</li>
-</ul>
-
-<h4>WebP</h4>
-<ul>
-<li>Mais moderno</li>
-<li>Mais leve que os dois</li>
-<li>Perfeito pra web</li>
+  <li><strong>JPEG:</strong> leve, bom pra foto</li>
+  <li><strong>PNG:</strong> qualidade alta, transparência</li>
+  <li><strong>WebP:</strong> moderno e otimizado</li>
 </ul>
 
 <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" style="width:100%; border-radius:10px; margin:15px 0;">
 
-<h3>Vetorial (SVG)</h3>
-<p>Aqui muda tudo. Não são pixels, são cálculos. Isso significa que você pode aumentar o quanto quiser que não perde qualidade.</p>
+<h3>Vetorial</h3>
+
+<p>Aqui não tem pixel — é tudo matemático.</p>
+
+<p>Resultado: pode aumentar infinito sem perder qualidade.</p>
 
 <ul>
-<li>Ideal pra logos</li>
-<li>Leve</li>
-<li>Escala infinita</li>
+  <li>SVG</li>
 </ul>
 
-<p>No fim, não existe “melhor formato”… existe o formato certo pra cada situação.</p>
+<img src="https://images.unsplash.com/photo-1558655146-d09347e92766" style="width:100%; border-radius:10px; margin:15px 0;">
+
+<div class="info-box">
+<p>💡 Saber escolher formato faz MUITA diferença em performance.</p>
+</div>
 `
   },
 
   {
-    id: 10, num: '10',
+    id: 10, num: '10', 
     cat: 'imagem', catLabel: '🖼 Processamento de Imagens', catColor: '#00e5ff',
     title: 'Processamento de Imagens',
-    excerpt: 'Filtros, segmentação e visão computacional.',
-    tags: ['Processamento','OpenCV','Python'],
+    excerpt: 'Filtros, segmentação, detecção de bordas — as técnicas que transformam imagens em informação.',
+    tags: ['Processamento','OpenCV','Python','Visão Computacional'], 
     date: 'Mai 2025', readTime: '7 min',
-    body: `
-<p>Processamento de imagem é basicamente ensinar o computador a “enxergar”.</p>
 
-<p>Não no sentido humano… mas reconhecer padrões, identificar objetos e extrair informação.</p>
+    body: `
+<p>Aqui já começa a entrar num nível mais técnico — mas ainda assim dá pra entender de boa.</p>
+
+<p>Processamento de imagem é basicamente ensinar o computador a “ver”.</p>
 
 <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <h3>Filtros</h3>
+
 <ul>
-<li><strong>Blur:</strong> suaviza a imagem</li>
-<li><strong>Sharpen:</strong> deixa mais nítido</li>
-<li><strong>Bordas:</strong> identifica contornos</li>
+  <li>Blur (tirar ruído)</li>
+  <li>Sharpen (melhorar detalhe)</li>
+  <li>Detecção de borda</li>
 </ul>
 
-<h3>Segmentação</h3>
-<p>Aqui o sistema separa partes da imagem. Tipo identificar um objeto no meio do fundo.</p>
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475" style="width:100%; border-radius:10px; margin:15px 0;">
 
-<p>Isso é muito usado em medicina, carros autônomos e reconhecimento facial.</p>
+<h3>Segmentação</h3>
+
+<p>Separar partes da imagem — tipo identificar objeto e fundo.</p>
 
 <img src="https://images.unsplash.com/photo-1581090700227-1e8a5b5f3f68" style="width:100%; border-radius:10px; margin:15px 0;">
 
 <h3>Ferramentas</h3>
+
 <ul>
-<li>OpenCV</li>
-<li>Pillow</li>
-<li>scikit-image</li>
+  <li>OpenCV</li>
+  <li>Pillow</li>
+  <li>scikit-image</li>
 </ul>
 
-<p>Hoje isso tá em tudo: desde câmera de celular até IA pesada.</p>
+<p>Hoje isso é base pra IA, reconhecimento facial, carros autônomos…</p>
+
+<div class="info-box">
+<p>🤖 Computador não “vê” como a gente — ele calcula.</p>
+</div>
 `
   },
-
   {
     id: 11, num: '11',
     cat: 'ia', catLabel: '🤖 Inteligência Artificial', catColor: '#ff4d8d',
     title: 'Inteligência Artificial e Multimídia',
-    excerpt: 'IA criando conteúdo em escala absurda.',
-    tags: ['IA','Machine Learning','Deep Learning'],
+    excerpt: 'IA generativa, deepfakes, upscaling — como algoritmos estão criando e transformando mídias.',
+    tags: ['IA','Machine Learning','Deep Learning','Generativa'],
     date: 'Mai 2025', readTime: '8 min',
+
     body: `
-<p>A IA mudou completamente a forma de criar conteúdo. Não é mais só ferramenta — agora ela cria junto (ou até sozinha).</p>
+<p>Se tem uma coisa que explodiu nos últimos anos foi a <strong>Inteligência Artificial</strong>.</p>
+
+<p>Hoje em dia, você consegue gerar imagem, texto, música e até vídeo só escrevendo um prompt. Isso mudou completamente a forma como a gente cria conteúdo.</p>
 
 <h3>IA Generativa</h3>
-<p>Hoje você consegue gerar imagem, texto, música e até vídeo com IA.</p>
+
+<p>Essa é a parte mais absurda: modelos que criam coisas do zero.</p>
 
 <ul>
 <li>Imagem: Midjourney, DALL-E</li>
 <li>Texto: GPT</li>
-<li>Áudio: ElevenLabs</li>
-<li>Vídeo: Runway</li>
+<li>Áudio: ElevenLabs, Suno</li>
+<li>Vídeo: Runway, Sora</li>
 </ul>
+
+<p>Antes você precisava saber desenhar, editar ou programar. Agora você descreve… e a IA faz.</p>
 
 <h3>Aplicações</h3>
+
+<h4>Imagem e Vídeo</h4>
 <ul>
-<li>Upscaling de imagem</li>
+<li>Upscaling (melhorar qualidade)</li>
 <li>Restauração de fotos antigas</li>
-<li>Geração de conteúdo</li>
+<li>Criação de imagens do zero</li>
 </ul>
 
-<p>Isso abre muitas possibilidades… mas também levanta várias discussões (tipo deepfake).</p>
+<h4>Áudio</h4>
+<ul>
+<li>Voz sintética</li>
+<li>Música gerada</li>
+<li>Limpeza de áudio</li>
+</ul>
 
-<p>A real é: quem aprende a usar isso agora sai muito na frente.</p>
+<p>Mas junto com isso vem um ponto importante: até onde isso é positivo?</p>
+
+<p>Deepfakes, fake news… tudo isso também entra no jogo.</p>
+
+<div class="info-box">
+<p>⚠️ IA não é só ferramenta — também levanta muita discussão ética.</p>
+</div>
 `
   },
 
@@ -409,39 +499,50 @@ const POSTS = [
     id: 12, num: '12',
     cat: 'game', catLabel: '🎮 Game Design', catColor: '#ffd060',
     title: 'Game Design Document (GDD)',
-    excerpt: 'O planejamento por trás de qualquer jogo.',
-    tags: ['Game Design','GDD'],
+    excerpt: 'O blueprint de qualquer jogo — o que é um GDD e como criá-lo.',
+    tags: ['Game Design','GDD','Documentação','Jogos'],
     date: 'Jun 2025', readTime: '7 min',
+
     body: `
-<p>Antes de qualquer jogo existir, existe um documento que organiza tudo: o GDD.</p>
+<p>Se você acha que fazer jogo é só sair programando… já começou errado.</p>
 
-<p>É tipo o “plano mestre” do jogo.</p>
+<p>Antes de qualquer linha de código, existe o <strong>GDD</strong> — Game Design Document.</p>
 
-<h3>O que tem dentro?</h3>
+<p>É basicamente o “plano do jogo”.</p>
 
-<h4>Visão geral</h4>
+<h3>Pra que serve?</h3>
+
+<p>Organizar tudo: ideia, mecânica, visual, som…</p>
+
+<p>Sem isso, o projeto vira bagunça rápido.</p>
+
+<h3>Estrutura</h3>
+
+<h4>Visão Geral</h4>
 <ul>
-<li>Ideia do jogo</li>
-<li>Público</li>
+<li>Nome do jogo</li>
+<li>Gênero</li>
 <li>Plataforma</li>
 </ul>
 
 <h4>Mecânicas</h4>
 <ul>
-<li>Como joga</li>
-<li>Objetivo</li>
+<li>Como o jogo funciona</li>
 <li>Regras</li>
+<li>Objetivo</li>
 </ul>
 
-<h4>Arte e Som</h4>
+<h4>Arte e Áudio</h4>
 <ul>
 <li>Estilo visual</li>
 <li>Trilha sonora</li>
 </ul>
 
-<p>Sem isso, o projeto vira bagunça rápido.</p>
+<p>No nosso caso, o GDD foi essencial — sem ele a gente ia se perder fácil.</p>
 
-<p>Com isso, todo mundo sabe o que tá fazendo.</p>
+<div class="info-box">
+<p>🎮 Um jogo bom começa muito antes do código.</p>
+</div>
 `
   },
 
@@ -449,78 +550,77 @@ const POSTS = [
     id: 13, num: '13',
     cat: 'game', catLabel: '🎮 Jogo Desenvolvido', catColor: '#ffd060',
     title: 'Jogo Desenvolvido: Projeto da Disciplina',
-    excerpt: 'Nosso jogo na prática.',
-    tags: ['Jogo','Projeto'],
+    excerpt: 'Apresentação do jogo criado durante a disciplina.',
+    tags: ['Jogo','Projeto','Unity','Game Dev'],
     date: 'Jun 2025', readTime: '6 min',
+
     body: `
-<p>Essa foi a parte mais prática de tudo: desenvolver um jogo de verdade.</p>
+<p>Aqui foi onde a teoria virou prática de verdade.</p>
 
-<h3>Sobre o jogo</h3>
-<p>A ideia foi aplicar tudo que a gente viu — desde planejamento até execução.</p>
+<p>Desenvolver um jogo parece simples olhando de fora… mas quando você começa, vê que envolve MUITA coisa.</p>
 
-<h3>Desenvolvimento</h3>
-<p>No começo parece simples… mas rapidamente surgem vários problemas.</p>
+<h3>O Projeto</h3>
 
-<p>Bug, lógica, mecânica, ajuste… é um processo constante.</p>
+<p>A gente criou um jogo aplicando o que estudou — desde design até implementação.</p>
 
-<p>Mas é justamente isso que faz aprender de verdade.</p>
+<h3>Mecânicas</h3>
 
-<h3>Aprendizado</h3>
 <ul>
-<li>Organização é tudo</li>
-<li>Testar o tempo todo</li>
-<li>Errar faz parte</li>
+<li>Movimentação</li>
+<li>Interação</li>
+<li>Objetivo claro</li>
 </ul>
 
-<p>No final, ver o jogo rodando compensa tudo.</p>
+<p>Teve erro, bug, coisa quebrando… mas faz parte.</p>
+
+<h3>O mais importante</h3>
+
+<p>Não foi o jogo em si — foi o processo.</p>
+
+<p>Entender como construir algo do zero muda totalmente a visão.</p>
+
+<div class="info-box">
+<p>🛠️ Desenvolver ensina mais que só estudar.</p>
+</div>
 `
   },
-     {
+
+  {
     id: 14, num: '14',
     cat: 'tech', catLabel: '⚙️ IoT', catColor: '#39d98a',
     title: 'Internet das Coisas (IoT)',
-    excerpt: 'Casas inteligentes, cidades conectadas — entenda a infraestrutura que conecta tudo.',
+    excerpt: 'Casas inteligentes, cidades conectadas.',
     tags: ['IoT','Arduino','MQTT','Sensores'],
     date: 'Jun 2025', readTime: '7 min',
-    body: `
-<p>A <strong>Internet das Coisas</strong> é basicamente quando objetos comuns começam a ficar “inteligentes”.</p>
 
-<p>Tipo lâmpada que liga pelo celular, sensor que mede temperatura sozinho, ou até geladeira conectada.</p>
+    body: `
+<p>IoT é quando objetos do dia a dia começam a se conectar na internet.</p>
+
+<p>Tipo lâmpada, geladeira, sensor… tudo trocando informação.</p>
 
 <h3>Como funciona</h3>
-<p>Não é mágica — é um conjunto de partes trabalhando juntas.</p>
 
-<h4>Dispositivos</h4>
 <ul>
-<li>Sensores (temperatura, presença, etc.)</li>
-<li>Microcontroladores (Arduino, ESP32)</li>
-<li>Computadores pequenos (Raspberry Pi)</li>
+<li>Sensores coletam dados</li>
+<li>Dispositivos processam</li>
+<li>Internet conecta tudo</li>
 </ul>
 
-<h4>Conexão</h4>
-<ul>
-<li>Wi-Fi</li>
-<li>Bluetooth</li>
-<li>LoRa</li>
-</ul>
+<p>Simples na ideia… mas gigante na prática.</p>
 
-<h4>Nuvem</h4>
-<ul>
-<li>Armazena dados</li>
-<li>Processa informações</li>
-<li>Gera dashboards</li>
-</ul>
+<h3>Onde aparece</h3>
 
-<p>Ou seja: coleta → envia → processa → mostra.</p>
-
-<h3>Onde isso aparece</h3>
 <ul>
 <li>Casa inteligente</li>
 <li>Indústria</li>
 <li>Agricultura</li>
 </ul>
 
-<p>IoT parece simples… mas por trás tem muita coisa rolando.</p>
+<p>O mundo tá ficando cada vez mais conectado.</p>
+
+<div class="info-box">
+<p>🌐 IoT é tipo dar “vida digital” aos objetos.</p>
+</div>
 `
   },
 
@@ -528,33 +628,29 @@ const POSTS = [
     id: 15, num: '15',
     cat: 'tech', catLabel: '⚙️ Automação', catColor: '#39d98a',
     title: 'Automação: Conceitos e Aplicações',
-    excerpt: 'Como a automação está mudando tudo.',
-    tags: ['Automação','RPA','Python'],
+    excerpt: 'Como a automação está redefinindo o trabalho.',
+    tags: ['Automação','RPA','Python','Indústria 4.0'],
     date: 'Jun 2025', readTime: '6 min',
-    body: `
-<p>Automação é basicamente fazer máquina trabalhar por você.</p>
 
-<p>Desde fábrica até script em Python… tudo entra nisso.</p>
+    body: `
+<p>Automação é basicamente fazer a máquina trabalhar por você.</p>
+
+<p>E isso já acontece em tudo — desde indústria até tarefas simples no PC.</p>
 
 <h3>Tipos</h3>
 
-<h4>Industrial</h4>
 <ul>
-<li>Robôs</li>
-<li>CLPs</li>
-<li>Linhas automatizadas</li>
+<li>Industrial (robôs)</li>
+<li>TI (scripts, bots)</li>
 </ul>
 
-<h4>TI</h4>
-<ul>
-<li>RPA</li>
-<li>Scripts</li>
-<li>Deploy automático</li>
-</ul>
+<p>Hoje, muita coisa repetitiva já é automatizada.</p>
 
-<p>Hoje, quem sabe automatizar economiza tempo absurdo.</p>
+<p>E isso muda totalmente o mercado de trabalho.</p>
 
-<p>E sinceramente… ninguém quer ficar fazendo tarefa repetitiva pra sempre.</p>
+<div class="info-box">
+<p>⚙️ Quem entende automação sai na frente.</p>
+</div>
 `
   },
 
@@ -562,30 +658,32 @@ const POSTS = [
     id: 16, num: '16',
     cat: 'tech', catLabel: '⚙️ Projeto Desenvolvido', catColor: '#39d98a',
     title: 'Projeto Desenvolvido: Sistema Multimídia',
-    excerpt: 'Aplicando tudo na prática.',
-    tags: ['Projeto','Desenvolvimento'],
+    excerpt: 'Documentação do projeto prático criado.',
+    tags: ['Projeto','Desenvolvimento','Multimídia'],
     date: 'Jul 2025', readTime: '5 min',
+
     body: `
-<p>Esse projeto foi onde tudo começou a fazer sentido de verdade.</p>
+<p>Esse foi o fechamento de tudo que a gente viu.</p>
 
-<p>Até então era teoria… aqui virou prática.</p>
+<p>Um projeto onde juntamos várias tecnologias e conceitos.</p>
 
-<h3>Sobre</h3>
-<p>A ideia foi criar um sistema que juntasse vários conceitos de multimídia em um só lugar.</p>
+<h3>O que foi feito</h3>
 
-<h3>Desenvolvimento</h3>
-<p>No começo parecia tranquilo… mas conforme foi avançando, foi ficando mais complexo.</p>
+<p>Um sistema que aplica multimídia na prática.</p>
 
-<p>Integração, interface, lógica… tudo começou a pesar.</p>
+<h3>O que aprendemos</h3>
 
-<h3>Aprendizados</h3>
 <ul>
-<li>Planejamento faz diferença</li>
-<li>Testar evita dor de cabeça</li>
-<li>Errar faz parte do processo</li>
+<li>Organização</li>
+<li>Planejamento</li>
+<li>Execução</li>
 </ul>
 
-<p>No fim, ver tudo funcionando foi a melhor parte.</p>
+<p>No fim, deu pra ver como tudo se conecta.</p>
+
+<div class="info-box">
+<p>🚀 Projeto prático é onde tudo faz sentido.</p>
+</div>
 `
   },
 
@@ -594,32 +692,31 @@ const POSTS = [
     cat: 'apresentacao', catLabel: '📋 Conclusão', catColor: '#00e5ff',
     title: 'Reflexões Finais: O que Aprendemos',
     excerpt: 'Uma reflexão sobre o percurso.',
-    tags: ['Conclusão','Aprendizado'],
+    tags: ['Conclusão','Aprendizado','Semestre'],
     date: 'Jul 2025', readTime: '4 min',
+
     body: `
-<p>Chegando no final, dá pra perceber o quanto coisa foi vista.</p>
+<p>Chegamos no final — e olhando pra trás, dá pra ver o quanto evoluiu.</p>
 
-<p>No começo parecia só mais uma matéria… mas acabou sendo bem mais completo do que esperado.</p>
+<p>No começo era só teoria… hoje já dá pra entender como tudo funciona junto.</p>
 
-<h3>Resumo geral</h3>
+<h3>Resumo</h3>
+
 <ul>
-<li>Multimídia e hipermídia</li>
-<li>VR, AR e MR</li>
-<li>Imagem e processamento</li>
+<li>Multimídia</li>
+<li>XR (VR, AR, MR)</li>
 <li>IA</li>
 <li>Jogos</li>
-<li>IoT e automação</li>
+<li>IoT</li>
 </ul>
 
-<p>Mas o principal não foi só o conteúdo… foi entender como tudo se conecta.</p>
+<p>Mas o principal aprendizado foi outro:</p>
 
-<p>Hoje é difícil separar tecnologia — tudo conversa entre si.</p>
+<p><strong>tecnologia não é só código — é comunicação.</strong></p>
 
 <div class="info-box">
 <p>🙏 Valeu por acompanhar o MultimídiaLab!</p>
 </div>
-
-<p>E provavelmente… isso aqui ainda é só o começo.</p>
 `
   }
 ];
