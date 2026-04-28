@@ -680,36 +680,46 @@ const POSTS = [
   },
 
   {
+    {
     id: 16, num: '16',
     cat: 'tech', catLabel: '⚙️ Projeto Desenvolvido', catColor: '#39d98a',
-    title: 'Projeto Desenvolvido: Sistema Multimídia',
-    excerpt: 'Aplicando tudo na prática.',
-    tags: ['Projeto','Desenvolvimento'],
-    date: 'Jul 2025', readTime: '5 min',
+    title: 'Projeto Desenvolvido: Calculadora de IMC com Arduino',
+    excerpt: 'Um sistema IoT que calcula altura, peso e IMC automaticamente — pensado pra consultórios de verdade.',
+    tags: ['IoT','Arduino','Projeto','Ultrassônico','IMC'],
+    date: 'Jun 2025', readTime: '5 min',
     body: `
-      <p>Esse projeto foi o ponto onde tudo começou a fazer sentido de verdade. Até então, os conceitos existiam de forma relativamente separada: multimídia aqui, IoT ali, automação acolá. No projeto prático, eles tiveram que conversar entre si.</p>
+      <p>Esse projeto foi o ponto onde tudo começou a fazer sentido de verdade. Até então, os conceitos existiam de forma relativamente separada: IoT aqui, sensores ali, microcontroladores acolá. No projeto prático, eles tiveram que conversar entre si — e o resultado foi um sistema funcional com aplicação real.</p>
 
-      <p>E é justamente aí que o aprendizado real acontece — não quando você lê sobre integração de sistemas, mas quando você tenta integrar dois sistemas que não foram feitos um pro outro e precisa descobrir como fazer isso funcionar.</p>
+      <h3>O que é o projeto</h3>
+      <p>Desenvolvemos uma <strong>calculadora de IMC automatizada com Arduino Mega</strong> — um sistema que mede a altura da pessoa via sensor ultrassônico, recebe o peso pelo teclado de membrana, calcula o IMC e exibe o resultado com a faixa de classificação num display LCD, tudo em tempo real.</p>
 
-      <h3>Sobre o sistema</h3>
-      <p>A proposta foi criar um sistema que reunisse múltiplos elementos de multimídia em uma experiência coesa. Isso significou tomar decisões sobre arquitetura, interface, fluxo de dados e apresentação — tudo ao mesmo tempo, com prazo.</p>
+      <p>A proposta de uso é direta: consultórios de nutricionistas e médicos que precisam do IMC como indicador rápido no início da consulta. Em vez de medir altura com fita métrica, anotar, pesar, calcular manualmente e ainda registrar — o sistema faz tudo isso em segundos, liberando tempo do profissional e agilizando o atendimento.</p>
 
-      <p>A fase de planejamento foi mais curta do que deveria. Descobrimos isso quando chegamos na implementação e percebemos que algumas decisões que pareciam óbvias no começo geravam conflitos conforme o sistema crescia.</p>
+      <h3>Como funciona</h3>
+      <p>O sistema tem três componentes principais integrados ao Arduino Mega:</p>
+      <ul>
+        <li><strong>Sensor ultrassônico (HC-SR04):</strong> fixado no batente superior da porta, a dois metros do chão. Ele mede a distância entre o sensor e o topo da cabeça da pessoa. Como a altura da porta é conhecida (2m), o cálculo é simples: <em>altura = 2m − distância medida</em>. A pessoa entra, para na frente do sensor, e a leitura é feita automaticamente.</li>
+        <li><strong>Teclado de membrana:</strong> usado pra inserir o peso manualmente. O usuário digita o valor em quilogramas diretamente no teclado conectado ao Arduino.</li>
+        <li><strong>Display LCD:</strong> exibe o resultado — altura medida, peso inserido, IMC calculado e a faixa correspondente (abaixo do peso, normal, sobrepeso, obesidade grau I, II ou III).</li>
+      </ul>
 
-      <h3>Desafios reais do desenvolvimento</h3>
-      <p>No começo, o projeto parecia tranquilo. A ideia estava clara, a tecnologia era conhecida, o escopo parecia controlado. Aí você começa a implementar de verdade.</p>
+      <h3>O cálculo</h3>
+      <p>Com altura e peso em mãos, o Arduino executa a fórmula padrão: <strong>IMC = peso ÷ altura²</strong>. O resultado é comparado com as faixas da OMS e a classificação é exibida no LCD junto ao valor numérico. Tudo processado internamente, sem necessidade de conexão com computador ou internet.</p>
 
-      <p>Integração é onde a complexidade esconde — quando dois componentes que funcionam perfeitamente separados precisam trabalhar juntos e simplesmente não funcionam. Interface é onde o que parecia simples no papel vira problema de usabilidade real. Lógica de estado é o que te faz ficar 2 horas procurando um bug que era uma variável com nome errado.</p>
+      <h3>Desafios do desenvolvimento</h3>
+      <p>A parte mais trabalhosa foi calibrar o sensor ultrassônico pra ter leitura consistente. Sensores ultrassônicos são sensíveis ao ângulo — se a pessoa não estiver posicionada corretamente embaixo do sensor, a leitura pode variar. A solução foi definir uma posição padrão de medição e ajustar o código pra filtrar leituras instáveis, fazendo uma média de múltiplas amostras antes de confirmar o valor.</p>
+
+      <p>A integração do teclado de membrana também exigiu atenção: o debounce das teclas (problema clássico de hardware onde um único pressionamento gera múltiplos sinais) precisou ser tratado no código pra evitar que o peso inserido chegasse errado ao cálculo.</p>
 
       <h3>Aprendizados que ficam</h3>
       <ul>
-        <li><strong>Planejamento faz diferença:</strong> não precisava ser perfeito, mas precisava ser mais cuidadoso. Decisões tomadas no começo têm impacto enorme depois.</li>
-        <li><strong>Testar evita dor de cabeça:</strong> bugs encontrados cedo custam muito menos do que bugs encontrados tarde.</li>
-        <li><strong>Documentar enquanto faz:</strong> o código que parecia óbvio quando você escreveu vira mistério duas semanas depois sem comentários.</li>
-        <li><strong>Errar faz parte do processo:</strong> não como consolo, mas como fato técnico. Iteração é o método.</li>
+        <li><strong>Hardware e software precisam conversar:</strong> um sensor mal posicionado ou mal calibrado quebra toda a lógica do software, por melhor que ela seja</li>
+        <li><strong>IoT resolve problemas reais:</strong> não é sobre tecnologia pela tecnologia — é sobre otimizar um processo que alguém faz todo dia de forma manual</li>
+        <li><strong>Escopo bem definido entrega:</strong> um sistema que faz uma coisa muito bem é mais valioso que um sistema que tenta fazer tudo e não conclui nenhum</li>
+        <li><strong>Testar em condição real importa:</strong> o sensor se comporta diferente dependendo da iluminação, da superfície e da posição — só descobrimos isso testando fora da bancada</li>
       </ul>
 
-      <p>Ver tudo funcionando no final — a interface, a lógica, os dados fluindo — foi a melhor parte. Não porque ficou perfeito. Ficou longe disso. Mas porque funcionou, e a gente sabia exatamente por quê cada parte funcionava do jeito que funcionava.</p>
+      <p>Ver o display LCD mostrando o IMC calculado automaticamente — com a altura medida pelo sensor e o peso digitado — foi o momento em que o projeto deixou de ser exercício acadêmico e virou algo que faz sentido no mundo real. Essa é a melhor parte de qualquer projeto de IoT bem executado.</p>
     `
   },
 
