@@ -117,7 +117,6 @@ const POSTS = [
 
       <p>Sabe quando você tá lendo algo, vai clicando em link atrás de link, e do nada já tá em outro assunto completamente diferente do que você começou? Então… isso é hipermídia na prática. E acontece com todo mundo, todo dia.</p>
 
-      <img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>A Origem: O Memex</h3>
       <p>Muito antes da internet existir, em 1945, um cientista chamado <strong>Vannevar Bush</strong> publicou um artigo chamado "As We May Think" na revista The Atlantic. Nele, ele imaginou uma máquina chamada <strong>Memex</strong> — um dispositivo que armazenaria livros, registros e comunicações, e permitiria que o usuário navegasse entre eles de forma associativa, como a mente humana funciona.</p>
@@ -141,7 +140,6 @@ const POSTS = [
         <li>E-learning interativo com caminhos personalizados por nível</li>
       </ul>
 
-      <img src="https://www.researchgate.net/figure/Figura-2-Conceito-de-hipermidia-Adaptado-de-14_fig2_380388971" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <p>No fim das contas, a hipermídia é o que faz a internet não ser uma "linha reta", mas um mapa cheio de caminhos — e é justamente isso que a torna tão viciante e tão poderosa ao mesmo tempo.</p>
     `
