@@ -314,9 +314,9 @@ const POSTS = [
 
       <p>Mas depois de ajustar o ângulo, escurecer o ambiente e posicionar o vídeo certo na tela, o efeito funcionou. A imagem aparecia suspensa no interior da bacia, com aquela sensação de estar flutuando — exatamente o princípio do Pepper's Ghost em escala doméstica. Ver isso acontecer depois de tanto trabalho foi genuinamente satisfatório.</p>
 
+      <img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
       <div class="info-box"><p>💡 Lição aprendida: holografia de baixo custo exige paciência, ambiente escuro e muita fita crepe. Mas funciona — e impressiona.</p></div>
-  
-            <img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
+
 
       <h3>Aplicações</h3>
       <ul>
