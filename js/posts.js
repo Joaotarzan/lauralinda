@@ -586,7 +586,7 @@ const POSTS = [
       </ul>
 
       <p>Ver o MaluVerso funcionando — com o mapa, as fases, a música, os peixes desaparecendo quando coletados — compensa todo o processo. Não porque ficou perfeito. Mas porque a gente sabia exatamente por que cada parte funcionava do jeito que funcionava.</p>
-    `
+    ´
   },
   {
     id: 14, num: '14',
