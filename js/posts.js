@@ -33,11 +33,7 @@ const POSTS = [
 
       <div class="info-box"><p>📌 A ideia é ir atualizando isso aqui conforme a matéria vai avançando — então se você tiver voltando depois de um tempo, pode ter post novo por aí.</p></div>
 
-      <h3>Referências</h3>
-      <ul class="ref-list">
-        <li>VAUGHAN, Tay. <em>Multimídia na Prática</em>. McGraw-Hill, 2011.</li>
-        <li>FELDMAN, Tony. <em>An Introduction to Digital Media</em>. Routledge, 1997.</li>
-      </ul>
+      
     `
   },
 
