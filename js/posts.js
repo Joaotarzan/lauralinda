@@ -393,44 +393,49 @@ const POSTS = [
     id: 10, num: '10',
     cat: 'imagem', catLabel: '🖼 Processamento de Imagens', catColor: '#00e5ff',
     title: 'Processamento de Imagens',
-    excerpt: 'Filtros, segmentação e visão computacional.',
-    tags: ['Processamento','OpenCV','Python'],
+    excerpt: 'Filtros, histogramas e esteganografia — como escondemos uma mensagem secreta dentro de uma foto sem que ninguém perceba.',
+    tags: ['Processamento','OpenCV','Python','Esteganografia','LSB'],
     date: 'Mai 2025', readTime: '7 min',
     body: `
       <p>Processamento de imagem é basicamente ensinar o computador a "enxergar". Não no sentido humano de interpretar emoções ou contexto — mas de identificar padrões, extrair informação, reconhecer estruturas. É a base de tudo que envolve visão computacional.</p>
 
       <p>E tá em muito mais lugar do que parece: câmera do celular que detecta rosto, aplicativo que lê QR code, carro que identifica pedestres, médico que analisa raio-X com IA. Tudo isso começa com processamento de imagem.</p>
 
-      <img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c" style="width:100%; border-radius:10px; margin:15px 0;">
-
       <h3>Conceitos fundamentais</h3>
-      <p>Antes de qualquer processamento, a imagem precisa ser representada de um jeito que o computador entenda. No fundo, uma imagem digital é uma matriz de números — cada pixel tem um valor (ou três valores, em RGB) que representa sua cor. Processamento de imagem é manipular esses números de formas específicas.</p>
+      <p>Antes de qualquer processamento, a imagem precisa ser representada de um jeito que o computador entenda. No fundo, uma imagem digital é uma matriz de números — cada pixel tem três valores (R, G, B) que representam sua cor. Processamento de imagem é manipular esses números de formas específicas pra extrair informação ou transformar a imagem.</p>
 
       <h3>Filtros</h3>
       <p>Filtros são operações matemáticas aplicadas sobre os pixels da imagem. Os mais comuns:</p>
       <ul>
         <li><strong>Blur (desfoque):</strong> suaviza a imagem calculando a média dos pixels vizinhos. Útil pra reduzir ruído antes de outras operações.</li>
-        <li><strong>Sharpen (nitidez):</strong> aumenta o contraste nas bordas, tornando a imagem mais nítida. O algoritmo basicamente amplia as diferenças entre pixels adjacentes.</li>
-        <li><strong>Detecção de bordas:</strong> identifica contornos onde há mudança brusca de cor ou intensidade. O algoritmo de Canny é o mais clássico pra isso.</li>
-        <li><strong>Threshold (limiarização):</strong> converte a imagem em preto e branco baseando-se num valor de corte. Fundamental pra separar objeto do fundo.</li>
+        <li><strong>Escala de cinza:</strong> converte os três canais RGB num único valor de luminância — simplifica o processamento e é passo inicial em muitas pipelines de visão computacional.</li>
+        <li><strong>Inversão de cores:</strong> subtrai cada valor de pixel de 255, criando o efeito negativo. Simples matematicamente, visualmente marcante.</li>
+        <li><strong>Detecção de bordas:</strong> identifica contornos onde há mudança brusca de intensidade. Revela a estrutura geométrica da imagem, eliminando textura e cor.</li>
       </ul>
 
-      <h3>Segmentação</h3>
-      <p>Aqui o sistema vai além — ele separa partes da imagem com significado diferente. Tipo identificar exatamente onde começa e termina uma pessoa numa foto, ou separar o tumor do tecido saudável num exame.</p>
+      <h3>Nosso projeto: StegoLab</h3>
+      <p>O projeto prático que desenvolvemos foi o <strong>StegoLab</strong> — um software de esteganografia com interface gráfica completa. A ideia central: esconder um texto secreto dentro de uma imagem, de forma que ninguém perceba visualmente que tem algo ali.</p>
 
-      <p>A segmentação semântica classifica cada pixel por categoria. A segmentação de instâncias vai mais longe e distingue objetos individuais. Isso é o que permite que um carro autônomo saiba que tem dois pedestres na frente, não apenas "pixels de pessoa".</p>
+      <p>É importante separar esteganografia de criptografia. Criptografia embaralha a mensagem — todo mundo vê que existe algo protegido, só não consegue ler. Esteganografia faz a mensagem desaparecer — ninguém nem suspeita que existe. São técnicas complementares, não substitutas.</p>
 
-      <img src="https://images.unsplash.com/photo-1581090700227-1e8a5b5f3f68" style="width:100%; border-radius:10px; margin:15px 0;">
+      <h3>A técnica: LSB (Least Significant Bit)</h3>
+      <p>Cada pixel de uma imagem RGB tem três números — vermelho, verde e azul — cada um de 0 a 255, representado em 8 bits. O último bit de cada número vale apenas 1 em 255 da intensidade total. Uma variação de 1 ponto (por exemplo, 200 → 201) é completamente invisível ao olho humano.</p>
 
-      <h3>Ferramentas</h3>
+      <p>O StegoLab substitui esse último bit pelo bit da mensagem que você quer esconder. Uma imagem de 800×600 pixels tem 1,44 milhão de bits disponíveis — o suficiente pra esconder até 180.000 caracteres sem que ninguém perceba nenhuma alteração visual.</p>
+
+      <h3>O que o software faz</h3>
       <ul>
-        <li><strong>OpenCV:</strong> a biblioteca mais usada. Open source, suporta Python e C++, tem função pra praticamente tudo. É o ponto de partida.</li>
-        <li><strong>Pillow:</strong> mais simples, ideal pra operações básicas de manipulação de imagem em Python.</li>
-        <li><strong>scikit-image:</strong> mais focado em análise científica. Boa pra contextos acadêmicos e biomédicos.</li>
-        <li><strong>TensorFlow / PyTorch:</strong> quando a coisa sobe de nível e entra deep learning (detecção de objetos, classificação, etc.).</li>
+        <li><strong>Esconder mensagem:</strong> você abre qualquer foto, digita um texto e o software modifica os LSBs dos pixels silenciosamente.</li>
+        <li><strong>Revelar mensagem:</strong> abre a imagem modificada e recupera o texto. Só quem tem o software e a imagem consegue fazer isso.</li>
+        <li><strong>Filtros visuais:</strong> escala de cinza, inversão, blur e detecção de bordas — cada um demonstrando uma técnica diferente de processamento.</li>
+        <li><strong>Histograma:</strong> gráfico da distribuição de cores da imagem. A parte mais impressionante: depois de esconder uma mensagem, o histograma quase não muda — prova matemática de que a técnica é invisível.</li>
+        <li><strong>Comparação antes/depois:</strong> imagem original e modificada lado a lado. Visualmente idênticas, mesmo com texto escondido dentro.</li>
       </ul>
 
-      <p>Hoje processamento de imagem tá em tudo: câmera de celular, controle de qualidade industrial, diagnóstico médico, segurança pública. Não é mais nicho — é infraestrutura.</p>
+      <h3>Por que isso conecta com Multimídia</h3>
+      <p>O StegoLab une dois temas centrais da disciplina: processamento de imagens — manipulação de pixels, filtros, histogramas, representação RGB — e segurança de informação, com uma técnica real usada em marca d'água digital, comunicação sigilosa e forense computacional.</p>
+
+      <p>Mais do que um exercício técnico, foi um projeto que mostrou como conceitos que parecem abstratos na teoria — "cada pixel tem 8 bits por canal" — têm consequências práticas reais e surpreendentes quando você os aplica de verdade.</p>
     `
   },
 
