@@ -480,11 +480,12 @@ const POSTS = [
   },
 
   {
+    {
     id: 12, num: '12',
     cat: 'game', catLabel: '🎮 Game Design', catColor: '#ffd060',
     title: 'Game Design Document (GDD)',
-    excerpt: 'O planejamento por trás de qualquer jogo.',
-    tags: ['Game Design','GDD'],
+    excerpt: 'O planejamento por trás de qualquer jogo — e o GDD que a gente montou pro MaluVerso.',
+    tags: ['Game Design','GDD','MaluVerso'],
     date: 'Jun 2025', readTime: '7 min',
     body: `
       <p>Antes de qualquer jogo existir, existe um documento que organiza tudo: o GDD — Game Design Document. É tipo o "plano mestre" do jogo, o lugar onde a ideia deixa de ser nebulosa e vira algo que uma equipe pode de fato construir.</p>
@@ -494,73 +495,99 @@ const POSTS = [
       <h3>O que é um GDD, na prática</h3>
       <p>Um GDD é um documento vivo — ele começa simples e vai crescendo com o projeto. Não precisa ser perfeito no início, mas precisa existir. É ele que impede que a equipe passe horas debatendo "mas o personagem pode pular duas vezes?" quando essa decisão deveria ter sido tomada semanas antes.</p>
 
-      <h3>O que tem dentro?</h3>
+      <h3>GDD — MaluVerso: Puzzles Felinos</h3>
+      <p>No nosso caso, o GDD foi construído junto com o jogo — em homenagem à Malu Cristina, o projeto ganhou nome, identidade e personalidade própria. Abaixo, o documento que guiou o desenvolvimento do <strong>MaluVerso</strong>.</p>
 
-      <h4>Visão geral</h4>
+      <h4>Visão Geral</h4>
       <ul>
-        <li><strong>Conceito central:</strong> a ideia do jogo em uma frase. Se não couber em uma frase, ainda não tá claro o suficiente.</li>
-        <li><strong>Público-alvo:</strong> quem vai jogar? Isso influencia dificuldade, estética, plataforma, tudo.</li>
-        <li><strong>Plataforma:</strong> mobile, PC, console — cada um tem restrições e convenções diferentes.</li>
-        <li><strong>Gênero:</strong> plataformer, RPG, puzzle, shooter… define expectativas dos jogadores.</li>
+        <li><strong>Conceito central:</strong> um jogo de plataforma com gato protagonista onde o jogador precisa coletar todos os peixes de cada fase para avançar.</li>
+        <li><strong>Público-alvo:</strong> jogadores casuais de qualquer idade, especialmente quem curte jogos de plataforma clássicos com estética pixel art.</li>
+        <li><strong>Plataforma:</strong> navegador web (desktop) — desenvolvido inteiramente em JavaScript, sem engine externa.</li>
+        <li><strong>Gênero:</strong> plataformer puzzle — inspirado no estilo Mario, com elementos de coleta e progressão por fases.</li>
+        <li><strong>Nome:</strong> MaluVerso: Puzzles Felinos</li>
       </ul>
 
-      <h4>Mecânicas</h4>
+      <h4>Mecânicas Principais</h4>
       <ul>
-        <li><strong>Core loop:</strong> o ciclo principal do jogo. O que o jogador faz, repetidamente, e por que isso é divertido?</li>
-        <li><strong>Controles:</strong> como o jogador interage com o mundo</li>
-        <li><strong>Sistema de progressão:</strong> como o jogo evolui — ficando mais difícil, desbloqueando coisas, contando história</li>
-        <li><strong>Regras e limites:</strong> o que pode e o que não pode dentro da lógica do jogo</li>
+        <li><strong>Movimentação:</strong> setas direcionais para mover, ESPAÇO ou ↑ para pular (com suporte a double jump), ↓ / S para agachar, SHIFT para dash.</li>
+        <li><strong>Objetivo:</strong> coletar TODOS os peixes da fase para concluí-la. Mais peixes coletados = rank mais alto (A / B / C).</li>
+        <li><strong>Core loop:</strong> entrar na fase → explorar a plataforma → coletar peixes → concluir → desbloquear próxima fase.</li>
+        <li><strong>Progressão:</strong> 5 fases desbloqueadas sequencialmente via Mapa de Níveis. Cada fase tem quantidade própria de peixes e dificuldade crescente.</li>
+        <li><strong>Pausa:</strong> ESC pausa o jogo a qualquer momento.</li>
+      </ul>
+
+      <h4>Fases</h4>
+      <ul>
+        <li><strong>Fase 1 — Jardim Noturno:</strong> fase inicial, 3 peixes. Introduz os controles básicos.</li>
+        <li><strong>Fase 2 — Floresta Dourada:</strong> 4 peixes. Plataformas mais espaçadas, exige double jump.</li>
+        <li><strong>Fase 3 — Tundra Nevada:</strong> 7 peixes. Aumento de complexidade do layout.</li>
+        <li><strong>Fase 4 — Vulcão Carmesim:</strong> 8 peixes. Fases com obstáculos mais agressivos.</li>
+        <li><strong>Fase 5 — Cosmos Final:</strong> 12 peixes. Clímax do jogo, exige domínio completo de todos os controles.</li>
       </ul>
 
       <h4>Arte e Som</h4>
       <ul>
-        <li><strong>Referências visuais:</strong> mood boards, paleta de cores, estilo (pixel art, 3D, cartoon…)</li>
-        <li><strong>Trilha sonora:</strong> clima, gênero musical, como o som reage às ações do jogador</li>
-        <li><strong>SFX:</strong> efeitos sonoros de interação — muito subestimados no feedback do jogador</li>
+        <li><strong>Estética:</strong> pixel art com paleta escura — fundo estrelado em preto/azul profundo, elementos em roxo e dourado.</li>
+        <li><strong>Personagem:</strong> gato laranja com expressão animada, servindo como ícone do jogo e marcador de posição no mapa.</li>
+        <li><strong>UI:</strong> tipografia pixel (estilo terminal), botões com brilho roxo, mapa de níveis com linha tracejada conectando as fases.</li>
+        <li><strong>Som:</strong> música chiptune ambiente com controle de volume no canto da tela. ESC pausa inclusive o áudio.</li>
       </ul>
 
-      <h3>Por que isso importa?</h3>
-      <p>Sem o GDD, o projeto vira bagunça rápido. Cada pessoa tem uma versão diferente do jogo na cabeça. Com o GDD, todo mundo sabe o que tá construindo — e, quando surge uma dúvida, tem um lugar pra consultar antes de improvisar.</p>
+      <h3>Por que o GDD importa?</h3>
+      <p>Sem ele, o projeto vira bagunça rápido. Cada pessoa tem uma versão diferente do jogo na cabeça. Com o GDD, todo mundo sabe o que tá construindo — e quando surge uma dúvida, tem um lugar pra consultar antes de improvisar.</p>
 
-      <p>Não precisa ser um documento de 100 páginas. Pra projetos pequenos, uma boa wiki ou até um Notion bem organizado já resolve. O importante é que exista.</p>
+      <p>No nosso caso, o GDD foi construído em paralelo com o desenvolvimento — e cada decisão que a gente tomava no código acabava retroalimentando o documento. Não foi linear, mas funcionou. E o resultado você pode conferir em <strong>malu-jornada-felina.vercel.app</strong>.</p>
     `
   },
 
   {
     id: 13, num: '13',
     cat: 'game', catLabel: '🎮 Jogo Desenvolvido', catColor: '#ffd060',
-    title: 'Jogo Desenvolvido: Projeto da Disciplina',
-    excerpt: 'Nosso jogo na prática.',
-    tags: ['Jogo','Projeto'],
+    title: 'Jogo Desenvolvido: MaluVerso',
+    excerpt: 'Como desenvolvemos um jogo de plataforma completo em JavaScript puro — do conceito ao deploy.',
+    tags: ['Jogo','JavaScript','MaluVerso','Plataformer'],
     date: 'Jun 2025', readTime: '6 min',
     body: `
       <p>Essa foi a parte mais prática de toda a disciplina: desenvolver um jogo de verdade. Não um esboço, não um protótipo de papel — um jogo funcional, com mecânicas reais, arte, lógica e a quantidade certa de bugs que toda primeira versão tem.</p>
 
-      <h3>Sobre o jogo</h3>
-      <p>A proposta foi aplicar tudo que vimos ao longo do semestre — desde o planejamento no GDD até a execução técnica. O escopo foi mantido deliberadamente pequeno. E isso foi uma boa decisão.</p>
+      <h3>O MaluVerso</h3>
+      <p>O jogo se chama <strong>MaluVerso: Puzzles Felinos</strong> — uma homenagem à Malu Cristina, que deu nome e personalidade ao projeto. É um plataformer no estilo Mario, desenvolvido inteiramente em <strong>JavaScript puro</strong>, sem engine externa, rodando direto no navegador.</p>
 
-      <p>Uma das primeiras lições de game dev é que qualquer ideia parece simples até você começar a implementar. A segunda lição é que escopo controlado é o que separa projetos que terminam de projetos que ficam eternamente "em desenvolvimento".</p>
+      <p>A proposta é simples e direta: você controla um gato laranja e precisa coletar todos os peixes espalhados pela fase pra avançar. Mais peixes = rank mais alto (A, B ou C). Cinco fases, dificuldade crescente, cada uma com nome e quantidade de peixes própria.</p>
+
+      <h3>Como o jogo funciona na prática</h3>
+      <p>A tela de gameplay mostra tudo que importa: contador de peixes coletados no canto superior esquerdo, nome da fase no topo, sistema de vidas representado por corações, e um aviso em tempo real de quantos peixes ainda faltam. Os controles ficam visíveis embaixo da tela — setas pra mover, ESPAÇO pra pular (com double jump), SHIFT pra dash e ESC pra pausar.</p>
+
+      <p>A estética é pixel art com paleta roxa e azul escuro — fundo estrelado, plataformas em tons de lilás e verde, peixes azuis espalhados em alturas diferentes. Cada fase tem seu próprio layout de plataformas, exigindo domínio crescente dos controles pra alcançar todos os coletáveis.</p>
 
       <h3>O processo de desenvolvimento</h3>
-      <p>No começo parece tranquilo. Você tem o GDD, tem a ferramenta, tem a ideia. Aí você começa e aparecem as perguntas que o planejamento não respondeu: como a colisão vai funcionar exatamente? E quando o personagem morre, o que acontece com os itens coletados? O inimigo precisa de animação pra cada direção ou só pras principais?</p>
+      <p>Desenvolver em JavaScript puro, sem engine, significou implementar tudo na mão: loop de jogo, detecção de colisão, física de pulo, sistema de câmera, controle de estado entre fases, mapa de níveis com desbloqueio sequencial. Cada funcionalidade que numa engine viria pronta, a gente teve que construir.</p>
 
-      <p>Bug, lógica, ajuste de física, sincronização de animação com mecânica… é um processo constante de testar, quebrar, corrigir e testar de novo. Não tem como fugir disso. É assim que desenvolvimento funciona.</p>
+      <p>No começo parece tranquilo. Você tem a ideia, tem a linguagem, tem o escopo. Aí você começa e aparecem as perguntas que o planejamento não respondeu: como a colisão vai funcionar exatamente com plataformas em alturas diferentes? O que acontece se o jogador cair fora da tela? Como sincronizar a contagem de peixes com o estado da fase sem buggar na transição?</p>
 
-      <h3>Ferramentas usadas</h3>
-      <p>O desenvolvimento foi feito usando as mesmas ferramentas que profissionais da área usam — o que torna o aprendizado mais transferível do que se fosse uma ferramenta criada só pra fins didáticos.</p>
+      <p>Bug, lógica, ajuste de física, sincronização de estado… é um processo constante de testar, quebrar, corrigir e testar de novo. Não tem como fugir disso. É assim que desenvolvimento funciona.</p>
+
+      <h3>O que ficou no jogo final</h3>
+      <ul>
+        <li><strong>5 fases completas:</strong> Jardim Noturno, Floresta Dourada, Tundra Nevada, Vulcão Carmesim e Cosmos Final</li>
+        <li><strong>Mapa de níveis</strong> com desbloqueio sequencial e indicadores de progresso</li>
+        <li><strong>Sistema de rank</strong> A/B/C baseado em peixes coletados</li>
+        <li><strong>Double jump e dash</strong> como mecânicas de movimentação avançada</li>
+        <li><strong>Música chiptune</strong> com controle de volume</li>
+        <li><strong>Deploy em produção</strong> — o jogo tá no ar em malu-jornada-felina.vercel.app</li>
+      </ul>
 
       <h3>Aprendizados que ficam</h3>
       <ul>
-        <li><strong>Organização é tudo:</strong> código bagunçado vira pesadelo quando você precisa adicionar uma feature nova ou corrigir algo que quebrou sem razão aparente</li>
-        <li><strong>Testar o tempo todo:</strong> o erro mais caro é descobrir um problema tarde demais, quando já tem muita coisa construída em cima dele</li>
-        <li><strong>Escopo é decisão, não fraqueza:</strong> cortar features é parte do processo. Um jogo pequeno e polido é melhor que um jogo grande e quebrado</li>
-        <li><strong>Errar faz parte:</strong> literalmente cada desenvolvedor de jogo tem histórias de coisas que quebraram de forma absurda e sem explicação</li>
+        <li><strong>JavaScript puro tem poder:</strong> não precisa de Unity ou Godot pra fazer um jogo funcional e com cara profissional — mas exige que você entenda bem o que tá fazendo</li>
+        <li><strong>Escopo é decisão, não fraqueza:</strong> cinco fases bem feitas valem mais do que dez fases quebradas</li>
+        <li><strong>Testar o tempo todo:</strong> bug descoberto cedo custa muito menos do que bug descoberto depois que tem mais dez sistemas construídos em cima dele</li>
+        <li><strong>Deploy é parte do projeto:</strong> ver o jogo rodando num link real, acessível por qualquer pessoa, muda a percepção de tudo</li>
       </ul>
 
-      <p>No final, ver o jogo rodando — com tudo funcionando junto, arte, som, lógica — compensa todo o processo. É um dos poucos momentos em que você consegue medir de forma concreta o que aprendeu.</p>
+      <p>Ver o MaluVerso funcionando — com o mapa, as fases, a música, os peixes desaparecendo quando coletados — compensa todo o processo. Não porque ficou perfeito. Mas porque a gente sabia exatamente por que cada parte funcionava do jeito que funcionava.</p>
     `
   },
-
   {
     id: 14, num: '14',
     cat: 'tech', catLabel: '⚙️ IoT', catColor: '#39d98a',
