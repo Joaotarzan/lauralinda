@@ -285,15 +285,14 @@ const POSTS = [
     id: 8, num: '08',
     cat: 'xr', catLabel: '🔮 Holografia', catColor: '#39d98a',
     title: 'Holografia: Hardware e Software',
-    excerpt: 'De Star Wars à realidade.',
-    tags: ['Holografia','Holograma'],
+    excerpt: 'De Star Wars à realidade — e como a gente fez um holograma com bacia de vidro e papel acetato.',
+    tags: ['Holografia','Holograma','Pepper\'s Ghost','Projeto'],
     date: 'Abr 2025', readTime: '7 min',
     body: `
       <p>Holograma parece coisa de filme de ficção científica — e por muito tempo, era exatamente isso. Mas a holografia existe como tecnologia desde os anos 60, desenvolvida pelo físico Dennis Gabor (que ganhou o Nobel por isso em 1971). O que mudou é que agora ela começou a sair do laboratório.</p>
 
       <p>A ideia central é criar uma imagem 3D que você pode ver de vários ângulos, como se o objeto estivesse realmente ali no espaço — sem precisar de óculos especiais.</p>
 
-      <img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Como funciona</h3>
       <p>A holografia clássica funciona usando interferência de luz laser. Dois feixes de laser — um de referência e um que reflete no objeto — criam um padrão de interferência que é gravado em uma placa fotossensível. Quando iluminado depois, esse padrão reconstrói a imagem 3D.</p>
@@ -308,6 +307,17 @@ const POSTS = [
         <li><strong>HoloLens/MR:</strong> tecnicamente não é holografia pura, mas é a versão mais acessível e utilizável do conceito hoje.</li>
       </ul>
 
+      <h3>Nossa experiência: construindo um holograma de verdade</h3>
+      <p>A parte mais marcante desse tema não foi ler sobre holografia — foi fazer um holograma com as próprias mãos. A proposta era aplicar o princípio do Pepper's Ghost usando materiais simples: uma bacia de vidro e papel acetato transparente. O vídeo holográfico foi buscado direto do YouTube — conteúdo próprio pra esse tipo de projeção, com objetos animados em fundo preto que se "transferem" pro reflexo no vidro.</p>
+
+      <p>Na prática, o processo foi bem mais trabalhoso do que parece. Uma das bacias de vidro quebrou no meio da montagem — um contratempo que a gente não esperava e que atrasou tudo. A solução? Papel acetato colado com fita crepe pra manter a estrutura no lugar certo. Improvisação pura.</p>
+
+      <p>Mas depois de ajustar o ângulo, escurecer o ambiente e posicionar o vídeo certo na tela, o efeito funcionou. A imagem aparecia suspensa no interior da bacia, com aquela sensação de estar flutuando — exatamente o princípio do Pepper's Ghost em escala doméstica. Ver isso acontecer depois de tanto trabalho foi genuinamente satisfatório.</p>
+
+      <div class="info-box"><p>💡 Lição aprendida: holografia de baixo custo exige paciência, ambiente escuro e muita fita crepe. Mas funciona — e impressiona.</p></div>
+  
+            <img src="../js/img/aguaviva.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
+
       <h3>Aplicações</h3>
       <ul>
         <li><strong>Medicina:</strong> visualização de órgãos e estruturas anatômicas em 3D pra planejamento cirúrgico e ensino</li>
@@ -316,9 +326,8 @@ const POSTS = [
         <li><strong>Varejo:</strong> exibição de produtos sem protótipo físico</li>
       </ul>
 
-      <img src="../js/img/holograma-medicina.jpg" style="width:100%; border-radius:10px; margin:15px 0;">
 
-      <p>Hoje ainda não é algo comum no dia a dia — o custo e a complexidade técnica ainda são altos. Mas a trajetória é clara: cada ano fica mais acessível, mais preciso, mais presente. É uma das tecnologias que vale ficar de olho.</p>
+      <p>Hoje ainda não é algo comum no dia a dia — o custo e a complexidade técnica ainda são altos. Mas como a gente provou na prática: com criatividade, dá pra chegar bem perto disso com uma bacia de vidro e um celular.</p>
     `
   },
 
