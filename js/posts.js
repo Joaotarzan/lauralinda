@@ -67,13 +67,6 @@ const POSTS = [
       <div class="media-block"><span class="media-icon">🎬</span><div><div class="media-label">Vídeo 🎬</div><div class="media-title">Blogs e a Revolução da Web 2.0</div><div class="media-src">https://youtu.be/ZEShuc4knkc?si=PeJ_93J0yVFv-TV5</div></div></div>
 
       <div class="media-block"><span class="media-icon">🔊</span><div><div class="media-label">Áudio 🔊 </div><div class="media-title">Podcast: Criação de Conteúdo Digital</div><div class="media-src">https://youtu.be/USWPIBqwI8c?si=a28uMIymhdW2agHA</div></div></div>
-
-      <h3>Referências</h3>
-      <ul class="ref-list">
-        <li>JENKINS, Henry. <em>Convergence Culture</em>. NYU Press, 2006.</li>
-        <li>O'REILLY, Tim. <em>What is Web 2.0</em>. O'Reilly Media, 2005.</li>
-      </ul>
-    `
   },
 
   {
@@ -88,7 +81,6 @@ const POSTS = [
 
       <p>Pensa: você abre qualquer site — tem texto, imagem, vídeo, botão clicável, animação… isso tudo junto é multimídia. Não é só jogar coisa aleatória numa página, é fazer com que texto, imagem, som e interação trabalhem juntos pra comunicar uma ideia de forma mais eficiente do que qualquer um desses elementos faria sozinho.</p>
 
-      <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" style="width:50%; border-radius:10px; margin:15px 0;">
 
       <h3>Um pouco de história</h3>
       <p>O termo "multimídia" ficou popular nos anos 90, com o boom dos CD-ROMs. Era a época em que enciclopédias vinham em disco e você ficava impressionado de ver uma foto e clicar pra ouvir um som. Parece pouco hoje, mas pra época era revolucionário.</p>
@@ -105,7 +97,6 @@ const POSTS = [
         <li><strong>Interatividade:</strong> é o que separa multimídia de TV. É o que faz você participar, não só assistir. Sem interatividade, é só um vídeo sofisticado.</li>
       </ul>
 
-      <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Multimídia linear vs. não-linear</h3>
       <p>Uma distinção importante que a disciplina trouxe foi essa: multimídia <strong>linear</strong> é quando o usuário não tem controle sobre o fluxo (tipo um vídeo normal). Já a <strong>não-linear</strong> é quando ele escolhe o caminho — tipo esse blog, um jogo ou um e-learning interativo.</p>
