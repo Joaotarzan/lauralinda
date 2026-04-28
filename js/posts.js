@@ -141,7 +141,7 @@ const POSTS = [
         <li>E-learning interativo com caminhos personalizados por nível</li>
       </ul>
 
-      <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8" style="width:100%; border-radius:10px; margin:15px 0;">
+      <img src="https://www.researchgate.net/figure/Figura-2-Conceito-de-hipermidia-Adaptado-de-14_fig2_380388971" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <p>No fim das contas, a hipermídia é o que faz a internet não ser uma "linha reta", mas um mapa cheio de caminhos — e é justamente isso que a torna tão viciante e tão poderosa ao mesmo tempo.</p>
     `
