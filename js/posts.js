@@ -341,8 +341,6 @@ const POSTS = [
 
       <p>À primeira vista parece tudo igual: "é uma foto, tanto faz". Mas não é. Cada formato tem um propósito específico, e usar o errado pode afetar qualidade, tamanho de arquivo, velocidade de carregamento e até SEO do site.</p>
 
-      <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" style="width:100%; border-radius:10px; margin:15px 0;">
-
       <h3>Imagens Rasterizadas</h3>
       <p>As rasterizadas são compostas por pixels — uma grade de pontos coloridos. Quanto mais pixels, mais detalhada a imagem. O problema: se você aumentar além da resolução original, a imagem fica "pixelada". Cada pixel é esticado e o resultado é aquela aparência borrada que todo mundo já viu.</p>
 
