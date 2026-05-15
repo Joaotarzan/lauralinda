@@ -502,7 +502,7 @@ const POSTS = [
         <li><strong>Gênero:</strong> plataformer puzzle — inspirado no estilo Mario, com elementos de coleta e progressão por fases.</li>
         <li><strong>Nome:</strong> MaluVerso: Puzzles Felinos</li>
       </ul>
-      <img src="js/img/gatinho01" style="width:100%; border-radius:10px; margin:15px 0;">
+      <img src=".../js/img/gatinho01" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h4>Mecânicas Principais</h4>
       <ul>
