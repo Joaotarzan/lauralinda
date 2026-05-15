@@ -254,8 +254,6 @@ const POSTS = [
 
       <p>Na AR comum, um objeto 3D fica "colado" numa superfície, mas sem relação real com o ambiente. Na MR, o sistema entende a geometria do espaço — paredes, mesas, objetos — e os elementos digitais respondem a isso. Um objeto virtual pode ficar atrás de uma cadeira real. Pode ser ocluído por uma parede. Pode rolar por uma mesa e cair no chão.</p>
 
-      <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485" style="width:100%; border-radius:10px; margin:15px 0;">
-
       <h3>O que torna isso diferente</h3>
       <p>A chave é o <strong>mapeamento espacial</strong>. Os dispositivos de MR usam câmeras de profundidade e sensores pra construir um modelo 3D do ambiente em tempo real. É isso que permite que o digital e o físico coexistam de forma convincente.</p>
 
