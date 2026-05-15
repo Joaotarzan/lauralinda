@@ -480,7 +480,7 @@ const POSTS = [
   },
 
   {
-    {
+    
     id: 12, num: '12',
     cat: 'game', catLabel: '🎮 Game Design', catColor: '#ffd060',
     title: 'Game Design Document (GDD)',
@@ -680,7 +680,6 @@ const POSTS = [
   },
 
   {
-    {
     id: 16, num: '16',
     cat: 'tech', catLabel: '⚙️ Projeto Desenvolvido', catColor: '#39d98a',
     title: 'Projeto Desenvolvido: Calculadora de IMC com Arduino',
