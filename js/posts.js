@@ -502,7 +502,6 @@ const POSTS = [
         <li><strong>Gênero:</strong> plataformer puzzle — inspirado no estilo Mario, com elementos de coleta e progressão por fases.</li>
         <li><strong>Nome:</strong> MaluVerso: Puzzles Felinos</li>
       </ul>
-      <img src="../js/img/gatinho01" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h4>Mecânicas Principais</h4>
       <ul>
@@ -521,7 +520,6 @@ const POSTS = [
         <li><strong>Fase 4 — Vulcão Carmesim:</strong> 8 peixes. Fases com obstáculos mais agressivos.</li>
         <li><strong>Fase 5 — Cosmos Final:</strong> 12 peixes. Clímax do jogo, exige domínio completo de todos os controles.</li>
       </ul>
-        <img src="../js/img/gatinho2" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h4>Arte e Som</h4>
       <ul>
@@ -552,6 +550,7 @@ const POSTS = [
       <p>O jogo se chama <strong>MaluVerso: Puzzles Felinos</strong> — uma homenagem à Malu Cristina, que deu nome e personalidade ao projeto. É um plataformer no estilo Mario, desenvolvido inteiramente em <strong>JavaScript puro</strong>, sem engine externa, rodando direto no navegador.</p>
 
       <p>A proposta é simples e direta: você controla um gato laranja e precisa coletar todos os peixes espalhados pela fase pra avançar. Mais peixes = rank mais alto (A, B ou C). Cinco fases, dificuldade crescente, cada uma com nome e quantidade de peixes própria.</p>
+      <img src="../js/img/gatinho01.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Como o jogo funciona na prática</h3>
       <p>A tela de gameplay mostra tudo que importa: contador de peixes coletados no canto superior esquerdo, nome da fase no topo, sistema de vidas representado por corações, e um aviso em tempo real de quantos peixes ainda faltam. Os controles ficam visíveis embaixo da tela — setas pra mover, ESPAÇO pra pular (com double jump), SHIFT pra dash e ESC pra pausar.</p>
