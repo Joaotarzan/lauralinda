@@ -550,12 +550,12 @@ const POSTS = [
       <p>O jogo se chama <strong>MaluVerso: Puzzles Felinos</strong> — uma homenagem à Malu Cristina, que deu nome e personalidade ao projeto. É um plataformer no estilo Mario, desenvolvido inteiramente em <strong>JavaScript puro</strong>, sem engine externa, rodando direto no navegador.</p>
 
       <p>A proposta é simples e direta: você controla um gato laranja e precisa coletar todos os peixes espalhados pela fase pra avançar. Mais peixes = rank mais alto (A, B ou C). Cinco fases, dificuldade crescente, cada uma com nome e quantidade de peixes própria.</p>
-      <img src="../js/img/gatinho01.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Como o jogo funciona na prática</h3>
       <p>A tela de gameplay mostra tudo que importa: contador de peixes coletados no canto superior esquerdo, nome da fase no topo, sistema de vidas representado por corações, e um aviso em tempo real de quantos peixes ainda faltam. Os controles ficam visíveis embaixo da tela — setas pra mover, ESPAÇO pra pular (com double jump), SHIFT pra dash e ESC pra pausar.</p>
 
       <p>A estética é pixel art com paleta roxa e azul escuro — fundo estrelado, plataformas em tons de lilás e verde, peixes azuis espalhados em alturas diferentes. Cada fase tem seu próprio layout de plataformas, exigindo domínio crescente dos controles pra alcançar todos os coletáveis.</p>
+      <img src="../js/img/gatinho01.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>O processo de desenvolvimento</h3>
       <p>Desenvolver em JavaScript puro, sem engine, significou implementar tudo na mão: loop de jogo, detecção de colisão, física de pulo, sistema de câmera, controle de estado entre fases, mapa de níveis com desbloqueio sequencial. Cada funcionalidade que numa engine viria pronta, a gente teve que construir.</p>
@@ -572,6 +572,8 @@ const POSTS = [
         <li><strong>Double jump e dash</strong> como mecânicas de movimentação avançada</li>
         <li><strong>Música chiptune</strong> com controle de volume</li>
         <li><strong>Deploy em produção</strong> — o jogo tá no ar em malu-jornada-felina.vercel.app</li>
+        <img src="../js/img/gatinho3.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
+
       </ul>
 
       <h3>Aprendizados que ficam</h3>
