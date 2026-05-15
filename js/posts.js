@@ -502,7 +502,7 @@ const POSTS = [
         <li><strong>Gênero:</strong> plataformer puzzle — inspirado no estilo Mario, com elementos de coleta e progressão por fases.</li>
         <li><strong>Nome:</strong> MaluVerso: Puzzles Felinos</li>
       </ul>
-      <img src=".../js/img/gatinho01" style="width:100%; border-radius:10px; margin:15px 0;">
+      <img src="../js/img/gatinho01" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h4>Mecânicas Principais</h4>
       <ul>
@@ -521,6 +521,7 @@ const POSTS = [
         <li><strong>Fase 4 — Vulcão Carmesim:</strong> 8 peixes. Fases com obstáculos mais agressivos.</li>
         <li><strong>Fase 5 — Cosmos Final:</strong> 12 peixes. Clímax do jogo, exige domínio completo de todos os controles.</li>
       </ul>
+        <img src="../js/img/gatinho2" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h4>Arte e Som</h4>
       <ul>
