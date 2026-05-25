@@ -554,7 +554,6 @@ const POSTS = [
       <p>A tela de gameplay mostra tudo que importa: contador de peixes coletados no canto superior esquerdo, nome da fase no topo, sistema de vidas representado por corações, e um aviso em tempo real de quantos peixes ainda faltam. Os controles ficam visíveis embaixo da tela — setas pra mover, ESPAÇO pra pular (com double jump), SHIFT pra dash e ESC pra pausar.</p>
 
       <p>A estética é pixel art com paleta roxa e azul escuro — fundo estrelado, plataformas em tons de lilás e verde, peixes azuis espalhados em alturas diferentes. Cada fase tem seu próprio layout de plataformas, exigindo domínio crescente dos controles pra alcançar todos os coletáveis.</p>
-      <img src="../js/img/gatinho01.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>O processo de desenvolvimento</h3>
       <p>Desenvolver em JavaScript puro, sem engine, significou implementar tudo na mão: loop de jogo, detecção de colisão, física de pulo, sistema de câmera, controle de estado entre fases, mapa de níveis com desbloqueio sequencial. Cada funcionalidade que numa engine viria pronta, a gente teve que construir.</p>
