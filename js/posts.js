@@ -562,6 +562,8 @@ const POSTS = [
       <p>No começo parece tranquilo. Você tem a ideia, tem a linguagem, tem o escopo. Aí você começa e aparecem as perguntas que o planejamento não respondeu: como a colisão vai funcionar exatamente com plataformas em alturas diferentes? O que acontece se o jogador cair fora da tela? Como sincronizar a contagem de peixes com o estado da fase sem buggar na transição?</p>
 
       <p>Bug, lógica, ajuste de física, sincronização de estado… é um processo constante de testar, quebrar, corrigir e testar de novo. Não tem como fugir disso. É assim que desenvolvimento funciona.</p>
+      
+      <img src="../js/img/gatinho2.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>O que ficou no jogo final</h3>
       <ul>
@@ -571,7 +573,6 @@ const POSTS = [
         <li><strong>Double jump e dash</strong> como mecânicas de movimentação avançada</li>
         <li><strong>Música chiptune</strong> com controle de volume</li>
         <li><strong>Deploy em produção</strong> — o jogo tá no ar em malu-jornada-felina.vercel.app</li>
-        <img src="../js/img/gatinho3.jpeg" style="width:100%; border-radius:10px; margin:15px 0;">
 
       </ul>
 
