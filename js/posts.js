@@ -368,7 +368,6 @@ const POSTS = [
         <li>Padrão recomendado pra web hoje — se você não tá usando, deveria estar</li>
       </ul>
 
-      <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0" style="width:100%; border-radius:10px; margin:15px 0;">
 
       <h3>Vetorial (SVG)</h3>
       <p>Aqui muda tudo. SVG não é feito de pixels — é feito de instruções matemáticas que descrevem formas, curvas e cores. Isso significa que você pode aumentar o quanto quiser que a qualidade não muda nada. Um logo SVG fica perfeito num crachá e numa parede de 10 metros.</p>
